@@ -1,0 +1,46 @@
+{
+    "rows": [
+        {
+            "authTimeStampDate": "2023-03-06",
+            "tokenDescription": "API token",
+            "ipAddressRestriction": "",
+            "vendorPhone": "",
+            "vendorName": "Venuenext",
+            "allowedFuncs": "sales,credits",
+            "apiSerialNumber": 209713.0,
+            "apiKeys": "sales,credits,manual,api",
+            "clientGenerateAccessToken": 1.0,
+            "authSerialNumber": 209713,
+            "merchantName": "CONCESSIONS - Mobile",
+            "vendorURL": "",
+            "authTimeStamp": "2023-03-06 03:24P",
+            "apiMID": 8956674.0,
+            "authGUID": "26F2B03B-2C29-4D02-9F31-8E0D3FE83E36",
+            "apiGUID": "1F56B63A-3CFA-465F-9ED1-F15D02963D2D",
+            "clientName": "OrderNext",
+            "authTimeStampTime": "03:24P",
+            "clientURL": ""
+        },
+        {
+            "authTimeStampDate": "2023-03-06",
+            "tokenDescription": "API token",
+            "ipAddressRestriction": "",
+            "vendorPhone": "",
+            "vendorName": "Venuenext",
+            "allowedFuncs": "sales,credits",
+            "apiSerialNumber": 209713.0,
+            "apiKeys": "sales,credits,manual,api",
+            "clientGenerateAccessToken": 1.0,
+            "authSerialNumber": 209713,
+            "merchantName": "CONCESSIONS - Mobile",
+            "vendorURL": "",
+            "authTimeStamp": "2023-03-06 03:24P",
+            "apiMID": 8956674.0,
+            "authGUID": "26F2B03B-2C29-4D02-9F31-8E0D3FE83E36",
+            "apiGUID": "1F56B63A-3CFA-465F-9ED1-F15D02963D2D",
+            "clientName": "OrderNext",
+            "authTimeStampTime": "03:24P",
+            "clientURL": ""
+        }
+    ]
+}
