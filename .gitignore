@@ -1,12 +1,15 @@
 .DS_Store
-/VNAPI_BALANCES_CONVERSION_TOTAL/vnapi_balances.json
-/VNAPI_BALANCES_CONVERSION_TOTAL/vnapi_balance_export_accounts.csv
-/STAND_UPDATE_ORG_NAME/stands_index_input.json
-/STAND_UPDATE_ORG_NAME/stands_index_output.json
-/ORDER_INDEX_BULK_TRANSITION/ORDER_UUID_TEXT_FILE/order_list_uuid_output.json
-/ORDER_INDEX_BULK_TRANSITION/ORDER_UUID_TEXT_FILE/order_list_uuids_input.txt
-/ORDER_INDEX_BULK_TRANSITION/ORDER_INDEX_JSON_FILE/order_index_output.json
-/ORDER_INDEX_BULK_TRANSITION/ORDER_INDEX_JSON_FILE/order_index_input.json
-/LTM_EXPORT_BULK_TOKENS/ltm_merchant_token_index_output.txt
-/LTM_EXPORT_BULK_TOKENS/ltm_merchant_token_index_output.csv
-/LTM_EXPORT_BULK_TOKENS/ltm_merchant_token_index_input.json
+# /VNAPI_BALANCES_CONVERSION_TOTAL/vnapi_balances.json
+# /VNAPI_BALANCES_CONVERSION_TOTAL/vnapi_balance_export_accounts.csv
+# /STAND_UPDATE_ORG_NAME/stands_index_input.json
+# /STAND_UPDATE_ORG_NAME/stands_index_output.json
+# /ORDER_INDEX_BULK_TRANSITION/ORDER_UUID_TEXT_FILE/order_list_uuid_output.json
+# /ORDER_INDEX_BULK_TRANSITION/ORDER_UUID_TEXT_FILE/order_list_uuids_input.txt
+# /ORDER_INDEX_BULK_TRANSITION/ORDER_INDEX_JSON_FILE/order_index_output.json
+# /ORDER_INDEX_BULK_TRANSITION/ORDER_INDEX_JSON_FILE/order_index_input.json
+# /LTM_EXPORT_BULK_TOKENS/ltm_merchant_token_index_output.txt
+# /LTM_EXPORT_BULK_TOKENS/ltm_merchant_token_index_output.csv
+# /LTM_EXPORT_BULK_TOKENS/ltm_merchant_token_index_input.json
+*.json
+*.csv
+*.txt
