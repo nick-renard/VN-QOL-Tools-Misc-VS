@@ -10,6 +10,6 @@
 # /LTM_EXPORT_BULK_TOKENS/ltm_merchant_token_index_output.txt
 # /LTM_EXPORT_BULK_TOKENS/ltm_merchant_token_index_output.csv
 # /LTM_EXPORT_BULK_TOKENS/ltm_merchant_token_index_input.json
-# *.json
-# *.csv
-# *.txt
+*.json
+*.csv
+*.txt
