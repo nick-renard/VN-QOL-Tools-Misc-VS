@@ -25,24 +25,11 @@ def run():
     total_balance_cents = sum([item['balance'] for item in data])
     total_balance_dollars = total_balance_cents / 100
     formatted_balance = locale.currency(total_balance_dollars, grouping=True)
-
-    root = tk.Tk()
-    root.title("Total Outstanding Virtual Currency")
-
-    # Create label with total balance
-    balance_label = tk.Label(root, text=formatted_balance, font=('Arial', 18))
-    balance_label.pack(pady=10)
-
-    # Create button to copy total balance to clipboard and close window
-    def copy_and_close():
-        pyperclip.copy(formatted_balance)
-        root.destroy()
-
-    copy_button = tk.Button(root, text="Copy Total Outstanding Balances & Close", command=copy_and_close, font=('Arial', 14))
-    copy_button.pack(pady=10)
-
-    # Run main loop
-    root.mainloop()
+    
+    # Print total balance
+    print("")
+    print('\x1b[0;30;43m' + 'Total Outstanding Balance: ' + '\x1b[0m')
+    print('\x1b[0;30;43m' + formatted_balance + '\x1b[0m')
 
     # Extract data for items with positive balances
     positive_balances = [{'primaryID': item['primaryID'], 'balance': item['balance']} for item in data if item['balance'] > 0]

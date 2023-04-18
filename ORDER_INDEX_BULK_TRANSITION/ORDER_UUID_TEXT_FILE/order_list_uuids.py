@@ -12,7 +12,7 @@ def run():
     for uuid in uuids:
         print(f"\"{uuid}\"")
 
-    print("Order states are case sensitive. Example: 'completed'\n")
+    print("\nOrder states are case sensitive. Example: 'completed'\n")
     new_state = input("Enter the new state for the orders to transition to: ")
 
     output_dict = {"order_uuids": uuids, "new_state": new_state}
