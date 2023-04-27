@@ -1,8 +1,8 @@
 import json
 import csv
 import locale
-import tkinter as tk
-import pyperclip
+#import tkinter as tk
+#import pyperclip
 
 # Set locale for currency formatting
 locale.setlocale(locale.LC_ALL, '')
