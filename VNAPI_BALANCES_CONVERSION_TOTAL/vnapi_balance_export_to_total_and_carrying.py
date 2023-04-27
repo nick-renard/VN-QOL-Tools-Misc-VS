@@ -21,6 +21,13 @@ def run():
     #             print("Duplicate PrimaryID Found: " + data[i]['primaryID'] + " at line " + str(i + 1))
     #             dup = True
 
+    positive_balances = []
+    for item in data:
+        try:
+            if item['balance'] > 0:
+                positive_balances.append({'primaryID': item['primaryID'], 'balance': item['balance']})
+        except KeyError:
+            positive_balances.append({'primaryID': 'No Primary ID Found', 'balance': item['balance']})
 
     total_balance_cents = sum([item['balance'] for item in data])
     total_balance_dollars = total_balance_cents / 100
@@ -30,9 +37,6 @@ def run():
     print("")
     print('\x1b[0;30;43m' + 'Total Outstanding Balance: ' + '\x1b[0m')
     print('\x1b[0;30;43m' + formatted_balance + '\x1b[0m')
-
-    # Extract data for items with positive balances
-    positive_balances = [{'primaryID': item['primaryID'], 'balance': item['balance']} for item in data if item['balance'] > 0]
 
     # Export extracted accounts and balances data to CSV file
     with open('VNAPI_BALANCES_CONVERSION_TOTAL/vnapi_balance_export_accounts.csv', 'w', newline='') as f:
@@ -46,4 +50,10 @@ def run():
         writer = csv.DictWriter(f, fieldnames=['primaryID'])
         writer.writeheader()
         for item in data:
-            writer.writerow({'primaryID': item['primaryID']})
+            try:
+                writer.writerow({'primaryID': item['primaryID']})
+            except KeyError:
+                writer.writerow({'primaryID': 'No Primary ID Found'})
+            
+# run the program
+run()
