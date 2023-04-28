@@ -1,8 +1,6 @@
 import json
 import csv
 import locale
-#import tkinter as tk
-#import pyperclip
 
 # Set locale for currency formatting
 locale.setlocale(locale.LC_ALL, '')
@@ -11,15 +9,6 @@ def run():
     # Load JSON file
     with open('VNAPI_BALANCES_CONVERSION_TOTAL/vnapi_balances.json') as f:
         data = json.load(f)
-
-    # Print primaryID and index of first occurrence of a duplicate
-    # In this format "Duplicate PrimaryID Found: <> at line <>"
-    # If duplicates are found, then dup = True
-    # for i in range(len(data)):
-    #     for j in range(i + 1, len(data)):
-    #         if data[i]['primaryID'] == data[j]['primaryID']:
-    #             print("Duplicate PrimaryID Found: " + data[i]['primaryID'] + " at line " + str(i + 1))
-    #             dup = True
 
     positive_balances = []
     for item in data:
@@ -54,6 +43,3 @@ def run():
                 writer.writerow({'primaryID': item['primaryID']})
             except KeyError:
                 writer.writerow({'primaryID': 'No Primary ID Found'})
-            
-# run the program
-run()

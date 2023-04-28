@@ -2,6 +2,7 @@ import ORDER_INDEX_BULK_TRANSITION.ORDER_UUID_TEXT_FILE.order_list_uuids as orde
 import ORDER_INDEX_BULK_TRANSITION.ORDER_INDEX_JSON_FILE.order_index_uuids as order_index_uuids
 import STAND_UPDATE_ORG_NAME.stands_index_to_update_org_name as stands_index_to_update_org_name
 import VNAPI_BALANCES_CONVERSION_TOTAL.vnapi_balance_export_to_total_and_carrying as vnapi_balance_export_to_total_and_carrying
+import VNAPI_SET_ALL_ACCOUNTS_TO_ZERO.vnapi_set_all_accounts_to_zero as vnapi_set_all_accounts_to_zero
 
 
 def main():
@@ -57,6 +58,18 @@ def main():
                 else:
                     print("Invalid choice. Please try again.")
         elif choice == "5":
+            while True:
+                printDisclaimer()
+                confirm = input("\nEnter your choice (yes/no): ")
+                if confirm == "yes":
+                    vnapi_set_all_accounts_to_zero.run()
+                    printSuccess()
+                    break
+                elif confirm == "no":
+                    break
+                else:
+                    print("Invalid choice. Please try again.")
+        elif choice == "6":
             print("\nExiting the program...")
             print("")
             print('\x1b[1;36;45m' + '  Thanks for using Nicks super awesome QOL scripts! :D  ' + '\x1b[0m')
@@ -78,7 +91,9 @@ def print_menu():
     print("2. Order State Transitions -- JSON response in a JSON file")
     print("3. Stand Organization Name Update")
     print("4. VNAPI Response Conversion to CSV")
-    print("5. Exit\n")
+    print("5. VNAPI - Set all to zero")
+    print("6. Exit")
+    print("")
 
 def printSuccess():
     print("")

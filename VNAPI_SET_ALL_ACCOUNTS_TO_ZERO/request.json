@@ -1,0 +1,26 @@
+{
+  "organization_name": "arena",
+  "adjustments": [
+    {
+      "account_id": "00ukpb1kvcOeryuzO357",
+      "description": "Admin Expiration",
+      "set_amount": 0,
+      "hidden_transaction": false,
+      "instance": null
+    },
+    {
+      "account_id": "00uqmbuh8mfJ7S9ch357",
+      "description": "Admin Expiration",
+      "set_amount": 0,
+      "hidden_transaction": false,
+      "instance": null
+    },
+    {
+      "account_id": "00uqtzz4bwLypGQ2W357",
+      "description": "Admin Expiration",
+      "set_amount": 0,
+      "hidden_transaction": false,
+      "instance": null
+    }
+  ]
+}
