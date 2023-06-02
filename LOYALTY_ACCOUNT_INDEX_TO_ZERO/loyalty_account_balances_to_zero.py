@@ -18,14 +18,24 @@ def run():
     # Iterate over positive accounts and add them to the API request
     for account in positive_accounts:
         i += 1
-        api_request['adjustments'].append({
-            "account_id": account['user_details'][0]['external_user_id'],
-            "description": "Resetting Virtual Currency Balance for Season",
-            "set_amount": 0,
-            "hidden_transaction": False,
-            "instance": account['instance']
-        })
-        
+        instance = account['instance']
+        if instance is not None:
+            adjustment = {
+                "account_id": account['user_details'][0]['external_user_id'],
+                "description": "Resetting Virtual Currency Balance for Season",
+                "set_amount": 0,
+                "hidden_transaction": False,
+                "instance": instance
+            }
+        else:
+            adjustment = {
+                "account_id": account['user_details'][0]['external_user_id'],
+                "description": "Resetting Virtual Currency Balance for Season",
+                "set_amount": 0,
+                "hidden_transaction": False
+            }
+        api_request['adjustments'].append(adjustment)
+
     print('\x1b[0;30;42m' + 'Total accounts to be set to zero: ' + str(i) + '\x1b[0m')
 
     # Write the API request JSON to a file
