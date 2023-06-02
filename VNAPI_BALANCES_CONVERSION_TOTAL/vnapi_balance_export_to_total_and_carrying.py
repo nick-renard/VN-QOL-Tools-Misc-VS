@@ -43,3 +43,5 @@ def run():
                 writer.writerow({'primaryID': item['primaryID']})
             except KeyError:
                 writer.writerow({'primaryID': 'No Primary ID Found'})
+
+run()

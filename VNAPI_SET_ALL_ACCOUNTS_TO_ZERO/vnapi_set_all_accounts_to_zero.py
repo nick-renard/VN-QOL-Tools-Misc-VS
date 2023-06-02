@@ -3,10 +3,18 @@ import json
 def run():
     # Open the JSON file and load the data
     with open('VNAPI_SET_ALL_ACCOUNTS_TO_ZERO/vnapi_balances.json', 'r') as f:
-        data = json.load(f)
+        try:
+            data = json.load(f)
+        except ValueError as e:
+            print(f"Error: {e} at line {e.lineno}, column {e.colno}")
 
     # Get a list of all primaryIDs
-    primary_ids = [d['primaryID'] for d in data]
+    primary_ids = []
+    for i, d in enumerate(data, start=1):
+        if 'primaryID' in d:
+            primary_ids.append(d['primaryID'])
+        else:
+            print(f"Skipping entry on line {i}, no 'primaryID' key")
 
     # Write the list of primaryIDs to a file
     with open('VNAPI_SET_ALL_ACCOUNTS_TO_ZERO/primary_ids.txt', 'w') as f:
@@ -14,7 +22,7 @@ def run():
             f.write(primary_id + '\n')
 
     # Filter the data to only include accounts with a balance
-    accounts_with_balance = [d['primaryID'] for d in data if d['balance'] > 0]
+    accounts_with_balance = [d['primaryID'] for d in data if 'balance' in d and 'primaryID' in d and d['balance'] > 0]
 
     # Ask the user for input
     instance = input("Enter the instance (leave blank for null): ")
@@ -44,3 +52,5 @@ def run():
     # Write the request data to a file
     with open('VNAPI_SET_ALL_ACCOUNTS_TO_ZERO/request.json', 'w') as f:
         json.dump(request_data, f, indent=2)
+
+run()
