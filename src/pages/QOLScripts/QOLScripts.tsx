@@ -1,13 +1,11 @@
-import { DataGrid, GridColDef, GridRenderCellParams } from '@mui/x-data-grid';
+import { DataGrid, GridColDef } from '@mui/x-data-grid';
 import { Button, Chip } from '@mui/material';
 import Meta from '@/components/Meta';
 import ScriptDrawer from '@/sections/ScriptDrawer/ScriptDrawer';
-import { Paper, Typography } from '@mui/material';
 import { Link } from 'react-router-dom';
 import { scriptRows } from '../../config/index'
 
-import React, { useState } from 'react';
-
+import { useState } from 'react';
 interface ScriptData {
   id: number;
   scriptName: string;

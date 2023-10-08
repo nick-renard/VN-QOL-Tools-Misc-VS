@@ -48,7 +48,7 @@ const loader = {
 
 const defaultMetaTags = {
   image: '/cover.png',
-  description: 'Starter kit for modern web applications',
+  description: 'QOL Tools for VenueNext Admins',
 };
 const giphy404 = 'https://giphy.com/embed/Qr6IxCV9ZUe4jnjSIi'
 
