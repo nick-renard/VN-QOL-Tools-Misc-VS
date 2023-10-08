@@ -1,7 +1,6 @@
 import Button from '@mui/material/Button';
 import ButtonGroup from '@mui/material/ButtonGroup';
 import { styled } from '@mui/system';
-import S4logo from './logos/S4.svg';
 
 const HotKeysButton = styled(Button)(({ theme }) => ({
   height: 'fit-content',

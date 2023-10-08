@@ -25,7 +25,7 @@ const QOLScripts = () => {
 
   const columns: GridColDef[] = [
     { field: 'id', headerName: 'ID', flex: 0.1 },
-    { field: 'scriptName', headerName: 'Script Name', flex: .5 },
+    { field: 'scriptName', headerName: 'Script Name', flex: .3 },
     { field: 'description', headerName: 'Description', flex: 1 },
     {
       field: 'action',
@@ -42,7 +42,7 @@ const QOLScripts = () => {
               setSelectedScript(scriptData);
             }}
           >
-            Open Drawer
+            Open Script Drawer
           </Button>
         );
       },
