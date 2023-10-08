@@ -1,15 +1,32 @@
-.DS_Store
-# /VNAPI_BALANCES_CONVERSION_TOTAL/vnapi_balances.json
-# /VNAPI_BALANCES_CONVERSION_TOTAL/vnapi_balance_export_accounts.csv
-# /STAND_UPDATE_ORG_NAME/stands_index_input.json
-# /STAND_UPDATE_ORG_NAME/stands_index_output.json
-# /ORDER_INDEX_BULK_TRANSITION/ORDER_UUID_TEXT_FILE/order_list_uuid_output.json
-# /ORDER_INDEX_BULK_TRANSITION/ORDER_UUID_TEXT_FILE/order_list_uuids_input.txt
-# /ORDER_INDEX_BULK_TRANSITION/ORDER_INDEX_JSON_FILE/order_index_output.json
-# /ORDER_INDEX_BULK_TRANSITION/ORDER_INDEX_JSON_FILE/order_index_input.json
-# /LTM_EXPORT_BULK_TOKENS/ltm_merchant_token_index_output.txt
-# /LTM_EXPORT_BULK_TOKENS/ltm_merchant_token_index_output.csv
-# /LTM_EXPORT_BULK_TOKENS/ltm_merchant_token_index_input.json
-# *.json
-# *.csv
-# *.txt
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dev-dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+*.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.project_structure_ignore
+project_structure.txt
+
+.husky/pre-commit
+.eslintrc.json
+.prettierrc.json
+LICENSE

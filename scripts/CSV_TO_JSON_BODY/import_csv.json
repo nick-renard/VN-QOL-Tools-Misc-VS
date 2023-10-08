@@ -1,0 +1,1948 @@
+{
+    "affiliations": [
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "INCRE",
+            "affiliation_type": "N10MA"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "INCRE",
+            "affiliation_type": "N10MB"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "INCRE",
+            "affiliation_type": "N10MC"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "INCRE",
+            "affiliation_type": "N10MD"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "INCRES",
+            "affiliation_type": "N10NA"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "INCRES",
+            "affiliation_type": "N10NB"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "INCRES",
+            "affiliation_type": "N10NC"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "INCRES",
+            "affiliation_type": "N10ND"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "INCREP",
+            "affiliation_type": "N10OA"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "INCREP",
+            "affiliation_type": "N10OB"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "INCREP",
+            "affiliation_type": "N10OC"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "INCREP",
+            "affiliation_type": "N10OD"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "INCRESP",
+            "affiliation_type": "N10PA"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "INCRESP",
+            "affiliation_type": "N10PB"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "INCRESP",
+            "affiliation_type": "N10PC"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "INCRESP",
+            "affiliation_type": "N10PD"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "FL_INCRE",
+            "affiliation_type": "N1FMA"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "FL_INCRE",
+            "affiliation_type": "N1FMB"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "FL_INCRE",
+            "affiliation_type": "N1FMC"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "FL_INCRE",
+            "affiliation_type": "N1FMD"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "FL_INCRES",
+            "affiliation_type": "N1FNA"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "FL_INCRES",
+            "affiliation_type": "N1FNB"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "FL_INCRES",
+            "affiliation_type": "N1FNC"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "FL_INCRES",
+            "affiliation_type": "N1FND"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "FL_INCREP",
+            "affiliation_type": "N1FOA"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "FL_INCREP",
+            "affiliation_type": "N1FOB"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "FL_INCREP",
+            "affiliation_type": "N1FOC"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "FL_INCREP",
+            "affiliation_type": "N1FOD"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "FL_INCRESP",
+            "affiliation_type": "N1FPA"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "FL_INCRESP",
+            "affiliation_type": "N1FPB"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "FL_INCRESP",
+            "affiliation_type": "N1FPC"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "FL_INCRESP",
+            "affiliation_type": "N1FPD"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "SORCE",
+            "affiliation_type": "N2FMA"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "SORCE",
+            "affiliation_type": "N2FMB"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "SORCE",
+            "affiliation_type": "N2FMC"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "SORCE",
+            "affiliation_type": "N2FMD"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "SORCES",
+            "affiliation_type": "N2FNA"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "SORCES",
+            "affiliation_type": "N2FNB"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "SORCES",
+            "affiliation_type": "N2FNC"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "SORCES",
+            "affiliation_type": "N2FND"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "SORCEP",
+            "affiliation_type": "N2FOA"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "SORCEP",
+            "affiliation_type": "N2FOB"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "SORCEP",
+            "affiliation_type": "N2FOC"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "SORCEP",
+            "affiliation_type": "N2FOD"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "SORCESP",
+            "affiliation_type": "N2FPA"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "SORCESP",
+            "affiliation_type": "N2FPB"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "SORCESP",
+            "affiliation_type": "N2FPC"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "SORCESP",
+            "affiliation_type": "N2FPD"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "SORCDVC",
+            "affiliation_type": "N2VMA"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "SORCDVC",
+            "affiliation_type": "N2VMB"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "SORCDVC",
+            "affiliation_type": "N2VMC"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "SORCDVC",
+            "affiliation_type": "N2VMD"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "SORCSDVC",
+            "affiliation_type": "N2VNA"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "SORCSDVC",
+            "affiliation_type": "N2VNB"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "SORCSDVC",
+            "affiliation_type": "N2VNC"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "SORCSDVC",
+            "affiliation_type": "N2VND"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "SORCPDVC",
+            "affiliation_type": "N2VOA"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "SORCPDVC",
+            "affiliation_type": "N2VOB"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "SORCPDVC",
+            "affiliation_type": "N2VOC"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "SORCPDVC",
+            "affiliation_type": "N2VOD"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "SORCSPDVC",
+            "affiliation_type": "N2VPA"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "SORCSPDVC",
+            "affiliation_type": "N2VPB"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "SORCSPDVC",
+            "affiliation_type": "N2VPC"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "SORCSPDVC",
+            "affiliation_type": "N2VPD"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "PIRAT",
+            "affiliation_type": "N3FMA"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "PIRAT",
+            "affiliation_type": "N3FMB"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "PIRAT",
+            "affiliation_type": "N3FMC"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "PIRAT",
+            "affiliation_type": "N3FMD"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "PIRATS",
+            "affiliation_type": "N3FNA"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "PIRATS",
+            "affiliation_type": "N3FNB"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "PIRATS",
+            "affiliation_type": "N3FNC"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "PIRATS",
+            "affiliation_type": "N3FND"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "PIRATP",
+            "affiliation_type": "N3FOA"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "PIRATP",
+            "affiliation_type": "N3FOB"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "PIRATP",
+            "affiliation_type": "N3FOC"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "PIRATP",
+            "affiliation_type": "N3FOD"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "PIRATSP",
+            "affiliation_type": "N3FPA"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "PIRATSP",
+            "affiliation_type": "N3FPB"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "PIRATSP",
+            "affiliation_type": "N3FPC"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "PIRATSP",
+            "affiliation_type": "N3FPD"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "PIXID",
+            "affiliation_type": "N4FMA"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "PIXID",
+            "affiliation_type": "N4FMB"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "PIXID",
+            "affiliation_type": "N4FMC"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "PIXID",
+            "affiliation_type": "N4FMD"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "PIXIDS",
+            "affiliation_type": "N4FNA"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "PIXIDS",
+            "affiliation_type": "N4FNB"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "PIXIDS",
+            "affiliation_type": "N4FNC"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "PIXIDS",
+            "affiliation_type": "N4FND"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "PIXIDP",
+            "affiliation_type": "N4FOA"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "PIXIDP",
+            "affiliation_type": "N4FOB"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "PIXIDP",
+            "affiliation_type": "N4FOC"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "PIXIDP",
+            "affiliation_type": "N4FOD"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "PIXIDSP",
+            "affiliation_type": "N4FPA"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "PIXIDSP",
+            "affiliation_type": "N4FPB"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "PIXIDSP",
+            "affiliation_type": "N4FPC"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "PIXIDSP",
+            "affiliation_type": "N4FPD"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "INCRE",
+            "affiliation_type": "N10IA"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "INCRE",
+            "affiliation_type": "N10IB"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "INCRE",
+            "affiliation_type": "N10IC"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "INCRE",
+            "affiliation_type": "N10ID"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "INCRES",
+            "affiliation_type": "N10JA"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "INCRES",
+            "affiliation_type": "N10JB"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "INCRES",
+            "affiliation_type": "N10JC"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "INCRES",
+            "affiliation_type": "N10JD"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "INCREP",
+            "affiliation_type": "N10KA"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "INCREP",
+            "affiliation_type": "N10KB"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "INCREP",
+            "affiliation_type": "N10KC"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "INCREP",
+            "affiliation_type": "N10KD"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "INCRESP",
+            "affiliation_type": "N10LA"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "INCRESP",
+            "affiliation_type": "N10LB"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "INCRESP",
+            "affiliation_type": "N10LC"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "INCRESP",
+            "affiliation_type": "N10LD"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "FL_INCRE",
+            "affiliation_type": "N1FIA"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "FL_INCRE",
+            "affiliation_type": "N1FIB"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "FL_INCRE",
+            "affiliation_type": "N1FIC"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "FL_INCRE",
+            "affiliation_type": "N1FID"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "FL_INCRES",
+            "affiliation_type": "N1FJA"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "FL_INCRES",
+            "affiliation_type": "N1FJB"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "FL_INCRES",
+            "affiliation_type": "N1FJC"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "FL_INCRES",
+            "affiliation_type": "N1FJD"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "FL_INCREP",
+            "affiliation_type": "N1FKA"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "FL_INCREP",
+            "affiliation_type": "N1FKB"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "FL_INCREP",
+            "affiliation_type": "N1FKC"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "FL_INCREP",
+            "affiliation_type": "N1FKD"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "FL_INCRESP",
+            "affiliation_type": "N1FLA"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "FL_INCRESP",
+            "affiliation_type": "N1FLB"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "FL_INCRESP",
+            "affiliation_type": "N1FLC"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "FL_INCRESP",
+            "affiliation_type": "N1FLD"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "SORCE",
+            "affiliation_type": "N2FIA"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "SORCE",
+            "affiliation_type": "N2FIB"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "SORCE",
+            "affiliation_type": "N2FIC"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "SORCE",
+            "affiliation_type": "N2FID"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "SORCES",
+            "affiliation_type": "N2FJA"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "SORCES",
+            "affiliation_type": "N2FJB"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "SORCES",
+            "affiliation_type": "N2FJC"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "SORCES",
+            "affiliation_type": "N2FJD"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "SORCEP",
+            "affiliation_type": "N2FKA"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "SORCEP",
+            "affiliation_type": "N2FKB"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "SORCEP",
+            "affiliation_type": "N2FKC"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "SORCEP",
+            "affiliation_type": "N2FKD"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "SORCESP",
+            "affiliation_type": "N2FLA"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "SORCESP",
+            "affiliation_type": "N2FLB"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "SORCESP",
+            "affiliation_type": "N2FLC"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "SORCESP",
+            "affiliation_type": "N2FLD"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "SORCDVC",
+            "affiliation_type": "N2VIA"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "SORCDVC",
+            "affiliation_type": "N2VIB"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "SORCDVC",
+            "affiliation_type": "N2VIC"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "SORCDVC",
+            "affiliation_type": "N2VID"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "SORCSDVC",
+            "affiliation_type": "N2VJA"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "SORCSDVC",
+            "affiliation_type": "N2VJB"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "SORCSDVC",
+            "affiliation_type": "N2VJC"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "SORCSDVC",
+            "affiliation_type": "N2VJD"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "SORCPDVC",
+            "affiliation_type": "N2VKA"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "SORCPDVC",
+            "affiliation_type": "N2VKB"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "SORCPDVC",
+            "affiliation_type": "N2VKC"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "SORCPDVC",
+            "affiliation_type": "N2VKD"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "SORCSPDVC",
+            "affiliation_type": "N2VLA"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "SORCSPDVC",
+            "affiliation_type": "N2VLB"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "SORCSPDVC",
+            "affiliation_type": "N2VLC"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "SORCSPDVC",
+            "affiliation_type": "N2VLD"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "PIRAT",
+            "affiliation_type": "N3FIA"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "PIRAT",
+            "affiliation_type": "N3FIB"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "PIRAT",
+            "affiliation_type": "N3FIC"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "PIRAT",
+            "affiliation_type": "N3FID"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "PIRATS",
+            "affiliation_type": "N3FJA"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "PIRATS",
+            "affiliation_type": "N3FJB"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "PIRATS",
+            "affiliation_type": "N3FJC"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "PIRATS",
+            "affiliation_type": "N3FJD"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "PIRATP",
+            "affiliation_type": "N3FKA"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "PIRATP",
+            "affiliation_type": "N3FKB"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "PIRATP",
+            "affiliation_type": "N3FKC"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "PIRATP",
+            "affiliation_type": "N3FKD"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "PIRATSP",
+            "affiliation_type": "N3FLA"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "PIRATSP",
+            "affiliation_type": "N3FLB"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "PIRATSP",
+            "affiliation_type": "N3FLC"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "PIRATSP",
+            "affiliation_type": "N3FLD"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "PIXID",
+            "affiliation_type": "N4FIA"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "PIXID",
+            "affiliation_type": "N4FIB"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "PIXID",
+            "affiliation_type": "N4FIC"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "PIXID",
+            "affiliation_type": "N4FID"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "PIXIDS",
+            "affiliation_type": "N4FJA"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "PIXIDS",
+            "affiliation_type": "N4FJB"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "PIXIDS",
+            "affiliation_type": "N4FJC"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "PIXIDS",
+            "affiliation_type": "N4FJD"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "PIXIDP",
+            "affiliation_type": "N4FKA"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "PIXIDP",
+            "affiliation_type": "N4FKB"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "PIXIDP",
+            "affiliation_type": "N4FKC"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "PIXIDP",
+            "affiliation_type": "N4FKD"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "PIXIDSP",
+            "affiliation_type": "N4FLA"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "PIXIDSP",
+            "affiliation_type": "N4FLB"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "PIXIDSP",
+            "affiliation_type": "N4FLC"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "PIXIDSP",
+            "affiliation_type": "N4FLD"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "INCRE",
+            "affiliation_type": "N10QA"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "INCRE",
+            "affiliation_type": "N10QB"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "INCRES",
+            "affiliation_type": "N10RA"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "INCRES",
+            "affiliation_type": "N10RB"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "INCREP",
+            "affiliation_type": "N10SA"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "INCREP",
+            "affiliation_type": "N10SB"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "INCRESP",
+            "affiliation_type": "N10TA"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "INCRESP",
+            "affiliation_type": "N10TB"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "FL_INCRE",
+            "affiliation_type": "N1FQA"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "FL_INCRE",
+            "affiliation_type": "N1FQB"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "FL_INCRES",
+            "affiliation_type": "N1FRA"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "FL_INCRES",
+            "affiliation_type": "N1FRB"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "FL_INCREP",
+            "affiliation_type": "N1FSA"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "FL_INCREP",
+            "affiliation_type": "N1FSB"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "FL_INCRESP",
+            "affiliation_type": "N1FTA"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "FL_INCRESP",
+            "affiliation_type": "N1FTB"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "SORCE",
+            "affiliation_type": "N2FQA"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "SORCE",
+            "affiliation_type": "N2FQB"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "SORCES",
+            "affiliation_type": "N2FRA"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "SORCES",
+            "affiliation_type": "N2FRB"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "SORCEP",
+            "affiliation_type": "N2FSA"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "SORCEP",
+            "affiliation_type": "N2FSB"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "SORCESP",
+            "affiliation_type": "N2FTA"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "SORCESP",
+            "affiliation_type": "N2FTB"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "SORCDVC",
+            "affiliation_type": "N2VQA"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "SORCDVC",
+            "affiliation_type": "N2VQB"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "SORCSDVC",
+            "affiliation_type": "N2VRA"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "SORCSDVC",
+            "affiliation_type": "N2VRB"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "SORCPDVC",
+            "affiliation_type": "N2VSA"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "SORCPDVC",
+            "affiliation_type": "N2VSB"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "SORCSPDVC",
+            "affiliation_type": "N2VTA"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "SORCSPDVC",
+            "affiliation_type": "N2VTB"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "PIRAT",
+            "affiliation_type": "N3FQA"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "PIRAT",
+            "affiliation_type": "N3FQB"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "PIRATS",
+            "affiliation_type": "N3FRA"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "PIRATS",
+            "affiliation_type": "N3FRB"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "PIRATP",
+            "affiliation_type": "N3FSA"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "PIRATP",
+            "affiliation_type": "N3FSB"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "PIRATSP",
+            "affiliation_type": "N3FTA"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "PIRATSP",
+            "affiliation_type": "N3FTB"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "PIXID",
+            "affiliation_type": "N4FQA"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "PIXID",
+            "affiliation_type": "N4FQB"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "PIXIDS",
+            "affiliation_type": "N4FRA"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "PIXIDS",
+            "affiliation_type": "N4FRB"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "PIXIDP",
+            "affiliation_type": "N4FSA"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "PIXIDP",
+            "affiliation_type": "N4FSB"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "PIXIDSP",
+            "affiliation_type": "N4FTA"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "PIXIDSP",
+            "affiliation_type": "N4FTB"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "INCRE",
+            "affiliation_type": "N1EQA"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "INCRE",
+            "affiliation_type": "N1EQB"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "INCRES",
+            "affiliation_type": "N1ERA"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "INCRES",
+            "affiliation_type": "N1ERB"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "INCREP",
+            "affiliation_type": "N1ESA"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "INCREP",
+            "affiliation_type": "N1ESB"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "INCRESP",
+            "affiliation_type": "N1ETA"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "INCRESP",
+            "affiliation_type": "N1ETB"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "FL_INCRE",
+            "affiliation_type": "N1EUA"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "FL_INCRE",
+            "affiliation_type": "N1EUB"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "FL_INCRES",
+            "affiliation_type": "N1EVA"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "FL_INCRES",
+            "affiliation_type": "N1EVB"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "FL_INCREP",
+            "affiliation_type": "N1EWA"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "FL_INCREP",
+            "affiliation_type": "N1EWB"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "FL_INCRESP",
+            "affiliation_type": "N1EXA"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "FL_INCRESP",
+            "affiliation_type": "N1EXB"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "SORCE",
+            "affiliation_type": "N2EMA"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "SORCE",
+            "affiliation_type": "N2EMB"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "SORCES",
+            "affiliation_type": "N2ENA"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "SORCES",
+            "affiliation_type": "N2ENB"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "SORCEP",
+            "affiliation_type": "N2EOA"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "SORCEP",
+            "affiliation_type": "N2EOB"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "SORCESP",
+            "affiliation_type": "N2EPA"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "SORCESP",
+            "affiliation_type": "N2EPB"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "PIRAT",
+            "affiliation_type": "N3EMA"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "PIRAT",
+            "affiliation_type": "N3EMB"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "PIRATS",
+            "affiliation_type": "N3ENA"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "PIRATS",
+            "affiliation_type": "N3ENB"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "PIRATP",
+            "affiliation_type": "N3EOA"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "PIRATP",
+            "affiliation_type": "N3EOB"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "PIRATSP",
+            "affiliation_type": "N3EPA"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "PIRATSP",
+            "affiliation_type": "N3EPB"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "PIXID",
+            "affiliation_type": "N4EMA"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "PIXID",
+            "affiliation_type": "N4EMB"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "PIXIDS",
+            "affiliation_type": "N4ENA"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "PIXIDS",
+            "affiliation_type": "N4ENB"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "PIXIDP",
+            "affiliation_type": "N4EOA"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "PIXIDP",
+            "affiliation_type": "N4EOB"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "PIXIDSP",
+            "affiliation_type": "N4EPA"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "PIXIDSP",
+            "affiliation_type": "N4EPB"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "INCRE",
+            "affiliation_type": "N1EIA"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "INCRE",
+            "affiliation_type": "N1EIB"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "INCRES",
+            "affiliation_type": "N1EJA"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "INCRES",
+            "affiliation_type": "N1EJB"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "INCREP",
+            "affiliation_type": "N1EKA"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "INCREP",
+            "affiliation_type": "N1EKB"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "INCRESP",
+            "affiliation_type": "N1ELA"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "INCRESP",
+            "affiliation_type": "N1ELB"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "FL_INCRE",
+            "affiliation_type": "N1EMA"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "FL_INCRE",
+            "affiliation_type": "N1EMB"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "FL_INCRES",
+            "affiliation_type": "N1ENA"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "FL_INCRES",
+            "affiliation_type": "N1ENB"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "FL_INCREP",
+            "affiliation_type": "N1EOA"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "FL_INCREP",
+            "affiliation_type": "N1EOB"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "FL_INCRESP",
+            "affiliation_type": "N1EPA"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "FL_INCRESP",
+            "affiliation_type": "N1EPB"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "SORCE",
+            "affiliation_type": "N2EIA"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "SORCE",
+            "affiliation_type": "N2EIB"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "SORCES",
+            "affiliation_type": "N2EJA"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "SORCES",
+            "affiliation_type": "N2EJB"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "SORCEP",
+            "affiliation_type": "N2EKA"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "SORCEP",
+            "affiliation_type": "N2EKB"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "SORCESP",
+            "affiliation_type": "N2ELA"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "SORCESP",
+            "affiliation_type": "N2ELB"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "PIRAT",
+            "affiliation_type": "N3EIA"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "PIRAT",
+            "affiliation_type": "N3EIB"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "PIRATS",
+            "affiliation_type": "N3EJA"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "PIRATS",
+            "affiliation_type": "N3EJB"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "PIRATP",
+            "affiliation_type": "N3EKA"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "PIRATP",
+            "affiliation_type": "N3EKB"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "PIRATSP",
+            "affiliation_type": "N3ELA"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "PIRATSP",
+            "affiliation_type": "N3ELB"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "PIXID",
+            "affiliation_type": "N4EIA"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "PIXID",
+            "affiliation_type": "N4EIB"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "PIXIDS",
+            "affiliation_type": "N4EJA"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "PIXIDS",
+            "affiliation_type": "N4EJB"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "PIXIDP",
+            "affiliation_type": "N4EKA"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "PIXIDP",
+            "affiliation_type": "N4EKB"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "PIXIDSP",
+            "affiliation_type": "N4ELA"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "PIXIDSP",
+            "affiliation_type": "N4ELB"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "GLDOKRES",
+            "affiliation_type": "N10YA"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "GLDOKRES",
+            "affiliation_type": "N10YB"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "GLDOKITCO",
+            "affiliation_type": "N10YC"
+        },
+        {
+            "organization_name": "disney",
+            "category": "ANNUAL",
+            "subtype": "GLDOKITCO",
+            "affiliation_type": "N10YD"
+        }
+    ]
+}

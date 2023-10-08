@@ -1,0 +1,194 @@
+{
+    "organization_name": "chicagobulls",
+    "adjustments": [
+        {
+            "account_id": "22890482",
+            "description": "Resetting Virtual Currency Balance for Season",
+            "set_amount": 0,
+            "hidden_transaction": false,
+            "instance": "blackhawks"
+        },
+        {
+            "account_id": "11909868",
+            "description": "Resetting Virtual Currency Balance for Season",
+            "set_amount": 0,
+            "hidden_transaction": false,
+            "instance": "blackhawks"
+        },
+        {
+            "account_id": "127556",
+            "description": "Resetting Virtual Currency Balance for Season",
+            "set_amount": 0,
+            "hidden_transaction": false,
+            "instance": "blackhawks"
+        },
+        {
+            "account_id": "520023",
+            "description": "Resetting Virtual Currency Balance for Season",
+            "set_amount": 0,
+            "hidden_transaction": false,
+            "instance": "blackhawks"
+        },
+        {
+            "account_id": "12460626",
+            "description": "Resetting Virtual Currency Balance for Season",
+            "set_amount": 0,
+            "hidden_transaction": false,
+            "instance": "blackhawks"
+        },
+        {
+            "account_id": "6211201",
+            "description": "Resetting Virtual Currency Balance for Season",
+            "set_amount": 0,
+            "hidden_transaction": false,
+            "instance": "blackhawks"
+        },
+        {
+            "account_id": "9390930",
+            "description": "Resetting Virtual Currency Balance for Season",
+            "set_amount": 0,
+            "hidden_transaction": false,
+            "instance": "blackhawks"
+        },
+        {
+            "account_id": "144055",
+            "description": "Resetting Virtual Currency Balance for Season",
+            "set_amount": 0,
+            "hidden_transaction": false,
+            "instance": "blackhawks"
+        },
+        {
+            "account_id": "1904075",
+            "description": "Resetting Virtual Currency Balance for Season",
+            "set_amount": 0,
+            "hidden_transaction": false,
+            "instance": "blackhawks"
+        },
+        {
+            "account_id": "4613113",
+            "description": "Resetting Virtual Currency Balance for Season",
+            "set_amount": 0,
+            "hidden_transaction": false,
+            "instance": "blackhawks"
+        },
+        {
+            "account_id": "115401",
+            "description": "Resetting Virtual Currency Balance for Season",
+            "set_amount": 0,
+            "hidden_transaction": false,
+            "instance": "blackhawks"
+        },
+        {
+            "account_id": "122738",
+            "description": "Resetting Virtual Currency Balance for Season",
+            "set_amount": 0,
+            "hidden_transaction": false,
+            "instance": "blackhawks"
+        },
+        {
+            "account_id": "1846124",
+            "description": "Resetting Virtual Currency Balance for Season",
+            "set_amount": 0,
+            "hidden_transaction": false,
+            "instance": "blackhawks"
+        },
+        {
+            "account_id": "6978157",
+            "description": "Resetting Virtual Currency Balance for Season",
+            "set_amount": 0,
+            "hidden_transaction": false,
+            "instance": "blackhawks"
+        },
+        {
+            "account_id": "1147686",
+            "description": "Resetting Virtual Currency Balance for Season",
+            "set_amount": 0,
+            "hidden_transaction": false,
+            "instance": "blackhawks"
+        },
+        {
+            "account_id": "429044",
+            "description": "Resetting Virtual Currency Balance for Season",
+            "set_amount": 0,
+            "hidden_transaction": false,
+            "instance": "blackhawks"
+        },
+        {
+            "account_id": "9264289",
+            "description": "Resetting Virtual Currency Balance for Season",
+            "set_amount": 0,
+            "hidden_transaction": false,
+            "instance": "blackhawks"
+        },
+        {
+            "account_id": "5617542",
+            "description": "Resetting Virtual Currency Balance for Season",
+            "set_amount": 0,
+            "hidden_transaction": false,
+            "instance": "blackhawks"
+        },
+        {
+            "account_id": "11017497",
+            "description": "Resetting Virtual Currency Balance for Season",
+            "set_amount": 0,
+            "hidden_transaction": false,
+            "instance": "blackhawks"
+        },
+        {
+            "account_id": "4486614",
+            "description": "Resetting Virtual Currency Balance for Season",
+            "set_amount": 0,
+            "hidden_transaction": false,
+            "instance": "blackhawks"
+        },
+        {
+            "account_id": "19409905",
+            "description": "Resetting Virtual Currency Balance for Season",
+            "set_amount": 0,
+            "hidden_transaction": false,
+            "instance": "blackhawks"
+        },
+        {
+            "account_id": "525832",
+            "description": "Resetting Virtual Currency Balance for Season",
+            "set_amount": 0,
+            "hidden_transaction": false,
+            "instance": "blackhawks"
+        },
+        {
+            "account_id": "3014442",
+            "description": "Resetting Virtual Currency Balance for Season",
+            "set_amount": 0,
+            "hidden_transaction": false,
+            "instance": "blackhawks"
+        },
+        {
+            "account_id": "26373709",
+            "description": "Resetting Virtual Currency Balance for Season",
+            "set_amount": 0,
+            "hidden_transaction": false,
+            "instance": "blackhawks"
+        },
+        {
+            "account_id": "28842545",
+            "description": "Resetting Virtual Currency Balance for Season",
+            "set_amount": 0,
+            "hidden_transaction": false,
+            "instance": "blackhawks"
+        },
+        {
+            "account_id": "8029357",
+            "description": "Resetting Virtual Currency Balance for Season",
+            "set_amount": 0,
+            "hidden_transaction": false,
+            "instance": "blackhawks"
+        },
+        {
+            "account_id": "4319689",
+            "description": "Resetting Virtual Currency Balance for Season",
+            "set_amount": 0,
+            "hidden_transaction": false,
+            "instance": "blackhawks"
+        }
+    ]
+}

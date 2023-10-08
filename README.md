@@ -1,8 +1,17 @@
 # Instructions
-Use these instructions as a guide when you are first starting out with the tools.
+Use these instructions as a guide when you are using the scripts directly, instead of using the web app.
 
-## Bulk Transition Orders Tool (**NOT IN PRODUCTION YET**)
-This tool contains two folders, [ORDER_INDEX_JSON_FILE](https://github.com/nick-renard/VN-QOL-Tools-Misc-VS/tree/main/ORDER_INDEX_BULK_TRANSITION/ORDER_INDEX_JSON_FILE) and [ORDER_UUID_TEXT_FILE](https://github.com/nick-renard/VN-QOL-Tools-Misc-VS/tree/main/ORDER_INDEX_BULK_TRANSITION/ORDER_UUID_TEXT_FILE). 
+## Bulk Transition Orders Tool
+
+> [!NOTE]
+> This script is now available in Canopy 1.0.
+> Go to the "VenueNexter" tab and click on "Transition Orders" section.
+
+``` bash
+/SCRIPTS/ORDER_INDEX_BULK_TRANSITION
+```
+
+This tool contains two folders, ORDER_INDEX_JSON_FILE and ORDER_UUID_TEXT_FILE. 
 
 The ORDER_INDEX_JSON_FILE folder is used when you are dropping the Orders Index (from PostMan or Orders App) response into the input file. When you run the program, it will parse the JSON into the proper request format. It will also ask you what order state you want the orders to be placed in. The order state is case-sensitive so be cautious. 
 
@@ -84,3 +93,29 @@ This tool will not be used that often but will be nice to have if many merchants
 The [LTM_EXPORT_BULK_TOKENS](https://github.com/nick-renard/VN-QOL-Tools-Misc-VS/tree/main/LTM_EXPORT_BULK_TOKENS) folder allows you to drop the API Settings response from LTM in the "input" file to generate a CSV of the MID Names, Merchant Token, and Platform (VNBackend or Ordernext).
 
 If you need help with this tool, please ask @nick-renard
+
+## If running on localhost (this is what you will be doing unless this site is hosted somewhere)
+
+
+To install dependencies / node modules, run the following command in the terminal:
+
+  ```bash
+npm install # or yarn
+```
+
+In order to run it locally:
+
+```bash
+npm run dev # or yarn dev
+```
+  then open your browser and go to the localhost port that is displayed in the terminal (usually localhost:3000)
+
+
+
+```bash
+npm install # or yarn
+```
+
+## License
+
+[MIT](./LICENSE)
