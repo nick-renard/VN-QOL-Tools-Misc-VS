@@ -35,5 +35,3 @@ object_type = input("Enter the object type (key) for the JSON (ex: affiliations)
 # Perform the conversion
 json_path = csv_to_json(csv_filename, object_type)
 print(f"JSON file has been saved to: {json_path}")
-
-csv_to_json()

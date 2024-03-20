@@ -1,0 +1,197 @@
+setting_name,value_type,mobile_pickup,mobile_delivery,mobile_selfcheckout,mobile_quickpay,mobile_preorder_delivery,mobile_preorder_pickup,autonomous_jwo,autonomous_zippin,kiosk_belly_up,kiosk_order_pay_fulfill,pos_belly_up,pos_order_pay_fulfill,pos_wait_staff
+enable_quick_service_kitchen_printing,boolean,false,false,false,false,false,false,false,false,false,false,false,true,true
+order_settlement_by_state,array,"completed, delivered_without_alcohol, not_collected","completed, delivered_without_alcohol, not_collected","completed, delivered_without_alcohol, not_collected","completed, delivered_without_alcohol, not_collected","completed, delivered_without_alcohol, not_collected","completed, delivered_without_alcohol, not_collected",not_collected,not_collected,"completed, delivered_without_alcohol, not_collected","completed, delivered_without_alcohol, not_collected","completed, delivered_without_alcohol, not_collected","completed, delivered_without_alcohol, not_collected","completed, delivered_without_alcohol, not_collected"
+use_menu_categories,boolean,false,false,false,false,false,false,false,false,false,false,false,false,false
+use_item_categories,boolean,true,true,true,true,true,true,true,true,true,true,true,true,true
+check_recent_order,boolean,false,false,false,false,false,false,false,false,false,false,false,false,false
+enable_inventory_management,boolean,true,true,true,true,true,true,true,true,true,true,true,true,true
+minimum_order_number,integer,10000,20000,30000,40000,50000,60000,70000,70000,80000,90000,100000,110000,120000
+skip_pos_submission,boolean,true,true,true,true,true,true,true,true,true,true,true,true,true
+skip_pos_submission_state,string,processing,processing,completed,completed,completed,completed,completed,completed,processing,completed,completed,completed,completed
+xpedite_auto_print_state,string,processing,processing,processing,processing,processing,processing,processing,processing,processing,processing,processing,processing,processing
+concessions_display_name,string,Mobile - Pickup,,,,,Mobile - Pre-Order Pickup,Autonomous - JWO,Autonomous - Zippin,,,,,
+concessions_orders_usage_type,string,pickup,pickup,pickup,pickup,pickup,pickup,pickup,pickup,pickup,pickup,pickup,pickup,pickup
+concessions_menus_usage_type,string,pickup,pickup,pickup,pickup,pickup,pickup,pickup,pickup,pickup,pickup,pickup,pickup,pickup
+delivery_display_name,string,,Mobile - Delivery,,,Mobile - Pre-Order Delivery,,,,,,,,
+delivery_orders_usage_type,string,delivery,delivery,delivery,delivery,delivery,delivery,delivery,delivery,delivery,delivery,delivery,delivery,delivery
+delivery_menus_usage_type,string,delivery,delivery,delivery,delivery,delivery,delivery,delivery,delivery,delivery,delivery,delivery,delivery,delivery
+pickup_display_name,string,Pick Up,Pick Up,Pick Up,Pick Up,Pick Up,Pick Up,Pick Up,Pick Up,Pick Up,Pick Up,Pick Up,Pick Up,Pick Up
+pickup_orders_usage_type,string,pickup,pickup,pickup,pickup,pickup,pickup,pickup,pickup,pickup,pickup,pickup,pickup,pickup
+pickup_menus_usage_type,string,pickup,pickup,pickup,pickup,pickup,pickup,pickup,pickup,pickup,pickup,pickup,pickup,pickup
+quickpay_display_name,string,,,,Mobile - Quickpay,,,,,,,,,
+quickpay_orders_usage_type,string,pickup,pickup,pickup,pickup,pickup,pickup,pickup,pickup,pickup,pickup,pickup,pickup,pickup
+quickpay_menus_usage_type,string,pickup,pickup,pickup,pickup,pickup,pickup,pickup,pickup,pickup,pickup,pickup,pickup,pickup
+kiosk_display_name,string,,,,,,,,,Kiosk - Belly Up,Kiosk - Order Pay Fulfill,,,
+kiosk_orders_usage_type,string,pickup,pickup,pickup,pickup,pickup,pickup,pickup,pickup,pickup,pickup,pickup,pickup,pickup
+kiosk_menus_usage_type,string,pickup,pickup,pickup,pickup,pickup,pickup,pickup,pickup,pickup,pickup,pickup,pickup,pickup
+pos_display_name,string,,,,,,,,,,,POS - Belly Up,POS - Order Pay Fulfill,POS - Wait Staff POS
+pos_orders_usage_type,string,pickup,pickup,pickup,pickup,pickup,pickup,pickup,pickup,pickup,pickup,pickup,pickup,pickup
+pos_menus_usage_type,string,pickup,pickup,pickup,pickup,pickup,pickup,pickup,pickup,pickup,pickup,pickup,pickup,pickup
+selfcheckout_display_name,string,,,Mobile - Self-Checkout,,,,,,,,,,
+selfcheckout_orders_usage_type,string,pickup,pickup,pickup,pickup,pickup,pickup,pickup,pickup,pickup,pickup,pickup,pickup,pickup
+selfcheckout_menus_usage_type,string,pickup,pickup,pickup,pickup,pickup,pickup,pickup,pickup,pickup,pickup,pickup,pickup,pickup
+merch_tax_rate,float,0,0,0,0,0,0,0,0,0,0,0,0,0
+food_tax_rate,float,0,0,0,0,0,0,0,0,0,0,0,0,0
+tax_by_item,boolean,true,true,true,true,true,true,true,true,true,true,true,true,true
+tax_rate_on_items,boolean,true,true,true,true,true,true,true,true,true,true,true,true,true
+leading_order_number_text,string,,,,,PO-,PO-,JWO,ZPN,,,,,
+concessions_queued_display_name,string,You order has been placed!,,,,,,,,,,,,
+concessions_queued_description,string,"Hi #{first_name}, your order has been placed. This screen will update when your order is ready for pickup from #{location_name}.",,,,,,,,,,,,
+concessions_processing_display_name,string,We are preparing your order!,,,,,,,,,,,,
+concessions_processing_description,string,"Hi #{first_name}, we are currently working on your order. This screen will update when your order is ready.",,,,,,,,,,,,
+concessions_bumped_display_name,string,Ready for pickup!,,,,,,,,,,,,
+concessions_bumped_description,string,"Hi #{first_name}, you order is ready at #{location_name}",,,,,,,,,,,,
+concessions_assigned_display_name,string,,,,,,,,,,,,,
+concessions_assigned_description,string,,,,,,,,,,,,,
+concessions_completed_display_name,string,Completed!,,,,,Pre-Order Submitted,Completed!,Completed!,,,,,
+concessions_completed_description,string,"Hi #{first_name}, your order has been completed successfully.",,,,,"Hi #{first_name}, your pre-order has been placed successfully! See you soon!","Hi #{first_name}, your order has been completed successfully. Thanks for stopping by!","Hi #{first_name}, your order has been completed successfully. Thanks for stopping by!",,,,,
+concessions_refunded_display_name,string,Your order has been refunded.,,,,,Your order has been refunded.,Your order has been refunded.,Your order has been refunded.,,,,,
+concessions_refunded_description,string,"Hi #{first_name}, your order has been successfully refunded.",,,,,"Hi #{first_name}, your order has been successfully refunded.","Hi #{first_name}, your order has been successfully refunded.","Hi #{first_name}, your order has been successfully refunded.",,,,,
+concessions_partially_refunded_display_name,string,Partially Refunded,,,,,Partially Refunded,Partially Refunded,Partially Refunded,,,,,
+concessions_partially_refunded_description,string,"Hi #{first_name}, some items within this order have been refunded.",,,,,"Hi #{first_name}, some items within this order have been refunded.","Hi #{first_name}, some items within this order have been refunded.","Hi #{first_name}, some items within this order have been refunded.",,,,,
+concessions_authorization_failed_display_name,string,Order Submission Failed,,,,,Order Submission Failed,Order Submission Failed,Order Submission Failed,,,,,
+concessions_authorization_failed_description,string,"Hi #{first_name}, your order could not be completed. Please try submitting the order again.",,,,,"Hi #{first_name}, your order could not be completed. Please try submitting the order again.","Hi #{first_name}, your order could not be completed. Please try submitting the order again.","Hi #{first_name}, your order could not be completed. Please try submitting the order again.",,,,,
+concessions_settlement_failed_display_name,string,We ran into an issue...,,,,,We ran into an issue...,We ran into an issue...,We ran into an issue...,,,,,
+concessions_settlement_failed_description,string,"Hi #{first_name}, your order payment could not be settled. Please try submitting the order again.",,,,,"Hi #{first_name}, your order payment could not be settled. Please try submitting the order again.","Hi #{first_name}, your order payment could not be settled. Please try submitting the order again.","Hi #{first_name}, your order payment could not be settled. Please try submitting the order again.",,,,,
+concessions_cancelled_display_name,string,Your order has been cancelled.,,,,,Your order has been cancelled.,Your order has been cancelled.,Your order has been cancelled.,,,,,
+concessions_cancelled_description,string,"Hi #{first_name}, your order has been cancelled.",,,,,"Hi #{first_name}, your order has been cancelled.","Hi #{first_name}, your order has been cancelled.","Hi #{first_name}, your order has been cancelled.",,,,,
+concessions_delivered_without_alcohol_display_name,string,Ready for pickup!,,,,,,,,,,,,
+concessions_delivered_without_alcohol_description,string,"Hi #{first_name}, you order is ready at #{location_name} However, we cancelled the alcoholic items. ",,,,,,,,,,,,
+concessions_refund_failed_display_name,string,Refund Attempted,,,,,Refund Attempted,Refund Attempted,Refund Attempted,,,,,
+concessions_refund_failed_description,string,"Hi #{first_name}, we tried to refund your order but there was a problem. We will resolve this shortly.",,,,,"Hi #{first_name}, we tried to refund your order but there was a problem. We will resolve this shortly.","Hi #{first_name}, we tried to refund your order but there was a problem. We will resolve this shortly.","Hi #{first_name}, we tried to refund your order but there was a problem. We will resolve this shortly.",,,,,
+concessions_not_collected_display_name,string,Sorry we missed you!,,,,,,,,,,,,
+concessions_not_collected_description,string,"Hi #{first_name}. This order was never picked up from #{location_name}. If you have any concerns with your payment, please contact a customer service representative.",,,,,,,,,,,,
+delivery_queued_display_name,string,,You order has been placed!,,,,,,,,,,,
+delivery_queued_description,string,,"Hi #{first_name}, your order has been placed. This screen will update when your order is out for delivery.",,,,,,,,,,,
+delivery_processing_display_name,string,,We are preparing your order!,,,,,,,,,,,
+delivery_processing_description,string,,"Hi #{first_name}, we are currently working on your order. This screen will update when your order is out for delivery.",,,,,,,,,,,
+delivery_bumped_display_name,string,,Out for delivery!,,,,,,,,,,,
+delivery_bumped_description,string,,"Hi #{first_name}, you order is currently being delivered. Enjoy!",,,,,,,,,,,
+delivery_assigned_display_name,string,,,,,,,,,,,,,
+delivery_assigned_description,string,,,,,,,,,,,,,
+delivery_completed_display_name,string,,Completed!,,,Pre-Order Submitted,,,,,,,,
+delivery_completed_description,string,,"Hi #{first_name}, your order has been completed successfully.",,,"Hi #{first_name}, your pre-order has been placed successfully! See you soon!",,,,,,,,
+delivery_refunded_display_name,string,,Your order has been refunded.,,,Your order has been refunded.,,,,,,,,
+delivery_refunded_description,string,,"Hi #{first_name}, your order has been successfully refunded.",,,"Hi #{first_name}, your order has been successfully refunded.",,,,,,,,
+delivery_partially_refunded_display_name,string,,Partially Refunded,,,Partially Refunded,,,,,,,,
+delivery_partially_refunded_description,string,,"Hi #{first_name}, some items within this order have been refunded.",,,"Hi #{first_name}, some items within this order have been refunded.",,,,,,,,
+delivery_authorization_failed_display_name,string,,Order Submission Failed,,,Order Submission Failed,,,,,,,,
+delivery_authorization_failed_description,string,,"Hi #{first_name}, your order could not be completed. Please try submitting the order again.",,,"Hi #{first_name}, your order could not be completed. Please try submitting the order again.",,,,,,,,
+delivery_settlement_failed_display_name,string,,We ran into an issue...,,,We ran into an issue...,,,,,,,,
+delivery_settlement_failed_description,string,,"Hi #{first_name}, your order payment could not be settled. Please try submitting the order again.",,,"Hi #{first_name}, your order payment could not be settled. Please try submitting the order again.",,,,,,,,
+delivery_cancelled_display_name,string,,Your order has been cancelled.,,,Your order has been cancelled.,,,,,,,,
+delivery_cancelled_description,string,,"Hi #{first_name}, your order has been cancelled.",,,"Hi #{first_name}, your order has been cancelled.",,,,,,,,
+delivery_delivered_without_alcohol_display_name,string,,Out for delivery!,,,,,,,,,,,
+delivery_delivered_without_alcohol_description,string,,"Hi #{first_name}, your order is out for delivery! However, we cancelled the alcoholic items.",,,,,,,,,,,
+delivery_refund_failed_display_name,string,,Refund Attempted,,,Refund Attempted,,,,,,,,
+delivery_refund_failed_description,string,,"Hi #{first_name}, we tried to refund your order but there was a problem. We will resolve this shortly.",,,"Hi #{first_name}, we tried to refund your order but there was a problem. We will resolve this shortly.",,,,,,,,
+delivery_not_collected_display_name,string,,Sorry we missed you!,,,,,,,,,,,
+delivery_not_collected_description,string,,"Hi #{first_name}. We couldn't locate you to deliver your order. If you have any concerns with your payment, please contact a customer service representative.",,,,,,,,,,,
+quickpay_queued_display_name,string,,,,,,,,,,,,,
+quickpay_queued_description,string,,,,,,,,,,,,,
+quickpay_processing_display_name,string,,,,,,,,,,,,,
+quickpay_processing_description,string,,,,,,,,,,,,,
+quickpay_bumped_display_name,string,,,,,,,,,,,,,
+quickpay_bumped_description,string,,,,,,,,,,,,,
+quickpay_assigned_display_name,string,,,,,,,,,,,,,
+quickpay_assigned_description,string,,,,,,,,,,,,,
+quickpay_completed_display_name,string,,,,Completed!,,,,,,,,,
+quickpay_completed_description,string,,,,"Hi #{first_name}, your order has been completed successfully.",,,,,,,,,
+quickpay_refunded_display_name,string,,,,Your order has been refunded.,,,,,,,,,
+quickpay_refunded_description,string,,,,"Hi #{first_name}, your order has been successfully refunded.",,,,,,,,,
+quickpay_partially_refunded_display_name,string,,,,Partially Refunded,,,,,,,,,
+quickpay_partially_refunded_description,string,,,,"Hi #{first_name}, some items within this order have been refunded.",,,,,,,,,
+quickpay_authorization_failed_display_name,string,,,,Order Submission Failed,,,,,,,,,
+quickpay_authorization_failed_description,string,,,,"Hi #{first_name}, your order could not be completed. Please try submitting the order again.",,,,,,,,,
+quickpay_settlement_failed_display_name,string,,,,We ran into an issue...,,,,,,,,,
+quickpay_settlement_failed_description,string,,,,"Hi #{first_name}, your order payment could not be settled. Please try submitting the order again.",,,,,,,,,
+quickpay_cancelled_display_name,string,,,,Your order has been cancelled.,,,,,,,,,
+quickpay_cancelled_description,string,,,,"Hi #{first_name}, your order has been cancelled.",,,,,,,,,
+quickpay_delivered_without_alcohol_display_name,string,,,,,,,,,,,,,
+quickpay_delivered_without_alcohol_description,string,,,,,,,,,,,,,
+quickpay_refund_failed_display_name,string,,,,Refund Attempted,,,,,,,,,
+quickpay_refund_failed_description,string,,,,"Hi #{first_name}, we tried to refund your order but there was a problem. We will resolve this shortly.",,,,,,,,,
+quickpay_not_collected_display_name,string,,,,,,,,,,,,,
+quickpay_not_collected_description,string,,,,,,,,,,,,,
+kiosk_queued_display_name,string,,,,,,,,,,You order has been placed!,,,
+kiosk_queued_description,string,,,,,,,,,,"Hi #{first_name}, thank you for your order. We will update this page when your order is ready for pickup from #{location_name}.",,,
+kiosk_processing_display_name,string,,,,,,,,,You order has been placed!,You order has been placed!,,,
+kiosk_processing_description,string,,,,,,,,,"Hi #{first_name}, thank you for your order. We will update this page when your order is ready for pickup from #{location_name}.","Hi #{first_name}, thank you for your order. We will update this page when your order is ready for pickup from #{location_name}.",,,
+kiosk_bumped_display_name,string,,,,,,,,,,Ready for pickup!,,,
+kiosk_bumped_description,string,,,,,,,,,,"Hi #{first_name}, you order is ready at #{location_name}",,,
+kiosk_assigned_display_name,string,,,,,,,,,,,,,
+kiosk_assigned_description,string,,,,,,,,,,,,,
+kiosk_completed_display_name,string,,,,,,,,,Completed!,Completed!,,,
+kiosk_completed_description,string,,,,,,,,,"Hi #{first_name}, your order has been completed successfully.","Hi #{first_name}, your order has been completed successfully.",,,
+kiosk_refunded_display_name,string,,,,,,,,,Your order has been refunded.,Your order has been refunded.,,,
+kiosk_refunded_description,string,,,,,,,,,"Hi #{first_name}, your order has been successfully refunded.","Hi #{first_name}, your order has been successfully refunded.",,,
+kiosk_partially_refunded_display_name,string,,,,,,,,,Partially Refunded,Partially Refunded,,,
+kiosk_partially_refunded_description,string,,,,,,,,,"Hi #{first_name}, some items within this order have been refunded.","Hi #{first_name}, some items within this order have been refunded.",,,
+kiosk_authorization_failed_display_name,string,,,,,,,,,,,,,
+kiosk_authorization_failed_description,string,,,,,,,,,,,,,
+kiosk_settlement_failed_display_name,string,,,,,,,,,,,,,
+kiosk_settlement_failed_description,string,,,,,,,,,,,,,
+kiosk_cancelled_display_name,string,,,,,,,,,Your order has been cancelled.,Your order has been cancelled.,,,
+kiosk_cancelled_description,string,,,,,,,,,"Hi #{first_name}, your order has been cancelled.","Hi #{first_name}, your order has been cancelled.",,,
+kiosk_delivered_without_alcohol_display_name,string,,,,,,,,,,,,,
+kiosk_delivered_without_alcohol_description,string,,,,,,,,,,,,,
+kiosk_refund_failed_display_name,string,,,,,,,,,Refund Attempted,Refund Attempted,,,
+kiosk_refund_failed_description,string,,,,,,,,,"Hi #{first_name}, we tried to refund your order but there was a problem. We will resolve this shortly.","Hi #{first_name}, we tried to refund your order but there was a problem. We will resolve this shortly.",,,
+kiosk_not_collected_display_name,string,,,,,,,,,,,,,
+kiosk_not_collected_description,string,,,,,,,,,,,,,
+pos_queued_display_name,string,,,,,,,,,,,,,
+pos_queued_description,string,,,,,,,,,,,,,
+pos_processing_display_name,string,,,,,,,,,,,You order has been placed!,You order has been placed!,You order has been placed!
+pos_processing_description,string,,,,,,,,,,,"Hi #{first_name}, thank you for your order. We will update this page when your order is ready for pickup from #{location_name}.","Hi #{first_name}, thank you for your order. We will update this page when your order is ready for pickup from #{location_name}.","Hi #{first_name}, thank you for your order. We will update this page when your order is ready for pickup from #{location_name}."
+pos_bumped_display_name,string,,,,,,,,,,,,,
+pos_bumped_description,string,,,,,,,,,,,,,
+pos_assigned_display_name,string,,,,,,,,,,,,,
+pos_assigned_description,string,,,,,,,,,,,,,
+pos_completed_display_name,string,,,,,,,,,,,Completed!,Completed!,Completed!
+pos_completed_description,string,,,,,,,,,,,"Hi #{first_name}, your order has been completed successfully.","Hi #{first_name}, your order has been completed successfully.","Hi #{first_name}, your order has been completed successfully."
+pos_refunded_display_name,string,,,,,,,,,,,Your order has been refunded.,Your order has been refunded.,Your order has been refunded.
+pos_refunded_description,string,,,,,,,,,,,"Hi #{first_name}, your order has been successfully refunded.","Hi #{first_name}, your order has been successfully refunded.","Hi #{first_name}, your order has been successfully refunded."
+pos_partially_refunded_display_name,string,,,,,,,,,,,Partially Refunded,Partially Refunded,Partially Refunded
+pos_partially_refunded_description,string,,,,,,,,,,,"Hi #{first_name}, some items within this order have been refunded.","Hi #{first_name}, some items within this order have been refunded.","Hi #{first_name}, some items within this order have been refunded."
+pos_authorization_failed_display_name,string,,,,,,,,,,,,,
+pos_authorization_failed_description,string,,,,,,,,,,,,,
+pos_settlement_failed_display_name,string,,,,,,,,,,,,,
+pos_settlement_failed_description,string,,,,,,,,,,,,,
+pos_cancelled_display_name,string,,,,,,,,,,,Your order has been cancelled.,Your order has been cancelled.,Your order has been cancelled.
+pos_cancelled_description,string,,,,,,,,,,,"Hi #{first_name}, your order has been cancelled.","Hi #{first_name}, your order has been cancelled.","Hi #{first_name}, your order has been cancelled."
+pos_delivered_without_alcohol_display_name,string,,,,,,,,,,,,,
+pos_delivered_without_alcohol_description,string,,,,,,,,,,,,,
+pos_refund_failed_display_name,string,,,,,,,,,,,Refund Attempted,Refund Attempted,Refund Attempted
+pos_refund_failed_description,string,,,,,,,,,,,"Hi #{first_name}, we tried to refund your order but there was a problem. We will resolve this shortly.","Hi #{first_name}, we tried to refund your order but there was a problem. We will resolve this shortly.","Hi #{first_name}, we tried to refund your order but there was a problem. We will resolve this shortly."
+pos_not_collected_display_name,string,,,,,,,,,,,,,
+pos_not_collected_description,string,,,,,,,,,,,,,
+selfcheckout_queued_display_name,string,,,,,,,,,,,,,
+selfcheckout_queued_description,string,,,,,,,,,,,,,
+selfcheckout_processing_display_name,string,,,,,,,,,,,,,
+selfcheckout_processing_description,string,,,,,,,,,,,,,
+selfcheckout_bumped_display_name,string,,,,,,,,,,,,,
+selfcheckout_bumped_description,string,,,,,,,,,,,,,
+selfcheckout_assigned_display_name,string,,,,,,,,,,,,,
+selfcheckout_assigned_description,string,,,,,,,,,,,,,
+selfcheckout_completed_display_name,string,,,Completed!,,,,,,,,,,
+selfcheckout_completed_description,string,,,"Hi #{first_name}, your order has been completed successfully.",,,,,,,,,,
+selfcheckout_refunded_display_name,string,,,Your order has been refunded.,,,,,,,,,,
+selfcheckout_refunded_description,string,,,"Hi #{first_name}, your order has been successfully refunded.",,,,,,,,,,
+selfcheckout_partially_refunded_display_name,string,,,Partially Refunded,,,,,,,,,,
+selfcheckout_partially_refunded_description,string,,,"Hi #{first_name}, some items within this order have been refunded.",,,,,,,,,,
+selfcheckout_authorization_failed_display_name,string,,,Order Submission Failed,,,,,,,,,,
+selfcheckout_authorization_failed_description,string,,,"Hi #{first_name}, your order could not be completed. Please try submitting the order again.",,,,,,,,,,
+selfcheckout_settlement_failed_display_name,string,,,We ran into an issue...,,,,,,,,,,
+selfcheckout_settlement_failed_description,string,,,"Hi #{first_name}, your order payment could not be settled. Please try submitting the order again.",,,,,,,,,,
+selfcheckout_cancelled_display_name,string,,,Your order has been cancelled.,,,,,,,,,,
+selfcheckout_cancelled_description,string,,,"Hi #{first_name}, your order has been cancelled.",,,,,,,,,,
+selfcheckout_delivered_without_alcohol_display_name,string,,,,,,,,,,,,,
+selfcheckout_delivered_without_alcohol_description,string,,,,,,,,,,,,,
+selfcheckout_refund_failed_display_name,string,,,Refund Attempted,,,,,,,,,,
+selfcheckout_refund_failed_description,string,,,"Hi #{first_name}, we tried to refund your order but there was a problem. We will resolve this shortly.",,,,,,,,,,
+selfcheckout_not_collected_display_name,string,,,,,,,,,,,,,
+selfcheckout_not_collected_description,string,,,,,,,,,,,,,
+pos_completion_pending_display_name,string,,,,,,,,,,,,,Completed!
+pos_completion_pending_description,string,,,,,,,,,,,,,"Hi #{first_name}, your order has been completed successfully. Your payment will be processed shortly."
+pos_tabbed_display_name,string,,,,,,,,,,,,,We are preparing your order!
+pos_tabbed_description,string,,,,,,,,,,,,,"Hi #{first_name}, we are currently working on your order. We will update this page when your order is ready."

@@ -1,0 +1,56 @@
+{
+    "configuration_models": [
+        {
+            "name": "[POS QS] Belly-Up",
+            "service_type": "POS"
+        },
+        {
+            "name": "[POS QS] Order-Pay-Fulfill",
+            "service_type": "POS"
+        },
+        {
+            "name": "[POS FS] Wait Staff",
+            "service_type": "POS"
+        },
+        {
+            "name": "[Kiosk] Belly-Up",
+            "service_type": "Kiosk"
+        },
+        {
+            "name": "[Kiosk] Order-Pay-Fulfill",
+            "service_type": "Kiosk"
+        },
+        {
+            "name": "[Mobile] Pickup",
+            "service_type": "Concessions"
+        },
+        {
+            "name": "[Mobile] Delivery",
+            "service_type": "Delivery"
+        },
+        {
+            "name": "[Mobile] Self Checkout",
+            "service_type": "SelfCheckout"
+        },
+        {
+            "name": "[Mobile] QuickPay",
+            "service_type": "QuickPay"
+        },
+        {
+            "name": "[Mobile] Pre-Order Pickup",
+            "service_type": "Concessions"
+        },
+        {
+            "name": "[Mobile] Pre-Order Delivery",
+            "service_type": "Delivery"
+        },
+        {
+            "name": "[Autonomous] Amazon Just Walk Out",
+            "service_type": "Concessions"
+        },
+        {
+            "name": "[Autonomous] Zippin",
+            "service_type": "Concessions"
+        }
+    ]
+}

@@ -2,7 +2,7 @@ import json
 
 line ="\n"
 def run():
-    with open("ORDER_INDEX_BULK_TRANSITION/ORDER_INDEX_JSON_FILE/order_index_input.json") as file:
+    with open("scripts/ORDER_INDEX_BULK_TRANSITION/ORDER_INDEX_JSON_FILE/order_index_input.json") as file:
         data = json.load(file)
 
     for item in data:
@@ -14,7 +14,7 @@ def run():
 
     output_dict = {"order_uuids": uuids, "new_state": new_state}
 
-    with open("ORDER_INDEX_BULK_TRANSITION/ORDER_INDEX_JSON_FILE/order_index_output.json", "w") as file:
+    with open("scripts/ORDER_INDEX_BULK_TRANSITION/ORDER_INDEX_JSON_FILE/order_index_output.json", "w") as file:
         json.dump(output_dict, file, indent=4)
         
         
@@ -22,7 +22,7 @@ import json
 
 line ="\n"
 def run():
-    with open("ORDER_INDEX_BULK_TRANSITION/ORDER_INDEX_JSON_FILE/order_index_input.json") as file:
+    with open("scripts/ORDER_INDEX_BULK_TRANSITION/ORDER_INDEX_JSON_FILE/order_index_input.json") as file:
         data = json.load(file)
 
     for item in data:
@@ -45,5 +45,5 @@ def run():
     new_state = states[int(new_state) - 1]
     output_dict = {"order_uuids": uuids, "new_state": new_state}
 
-    with open("ORDER_INDEX_BULK_TRANSITION/ORDER_INDEX_JSON_FILE/order_index_output.json", "w") as file:
+    with open("scripts/ORDER_INDEX_BULK_TRANSITION/ORDER_INDEX_JSON_FILE/order_index_output.json", "w") as file:
         json.dump(output_dict, file, indent=4)

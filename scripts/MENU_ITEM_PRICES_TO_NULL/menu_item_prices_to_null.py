@@ -2,8 +2,8 @@ import json
 
 def run():
     # Define the input and output file paths
-    input_file_path = "input.json"
-    output_file_path = "output.json"
+    input_file_path = "scripts/MENU_ITEM_PRICES_TO_NULL/input.json"
+    output_file_path = "scripts/MENU_ITEM_PRICES_TO_NULL/output.json"
 
     # Load data from the input JSON file
     with open(input_file_path, "r") as input_file:

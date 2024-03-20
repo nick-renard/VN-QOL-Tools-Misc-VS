@@ -2,7 +2,7 @@ import json
 
 def run():
     # Open the JSON file and load the data
-    with open('VNAPI_SET_ALL_ACCOUNTS_TO_ZERO/vnapi_balances.json', 'r') as f:
+    with open('scripts/VNAPI_SET_ALL_ACCOUNTS_TO_ZERO/vnapi_balances.json', 'r') as f:
         try:
             data = json.load(f)
         except ValueError as e:
@@ -17,7 +17,7 @@ def run():
             print(f"Skipping entry on line {i}, no 'primaryID' key")
 
     # Write the list of primaryIDs to a file
-    with open('VNAPI_SET_ALL_ACCOUNTS_TO_ZERO/primary_ids.txt', 'w') as f:
+    with open('scripts/VNAPI_SET_ALL_ACCOUNTS_TO_ZERO/primary_ids.txt', 'w') as f:
         for primary_id in primary_ids:
             f.write(primary_id + '\n')
 
@@ -50,7 +50,7 @@ def run():
         request_data["adjustments"].append(adjustment)
 
     # Write the request data to a file
-    with open('VNAPI_SET_ALL_ACCOUNTS_TO_ZERO/request.json', 'w') as f:
+    with open('scripts/VNAPI_SET_ALL_ACCOUNTS_TO_ZERO/request.json', 'w') as f:
         json.dump(request_data, f, indent=2)
 
-run()
+# run()

@@ -7,7 +7,7 @@ locale.setlocale(locale.LC_ALL, '')
 
 def run():
     # Load JSON file
-    with open('VNAPI_BALANCES_CONVERSION_TOTAL/vnapi_balances.json') as f:
+    with open('scripts/VNAPI_BALANCES_CONVERSION_TOTAL/vnapi_balances.json') as f:
         data = json.load(f)
 
     positive_balances = []
@@ -28,14 +28,14 @@ def run():
     print('\x1b[0;30;43m' + formatted_balance + '\x1b[0m')
 
     # Export extracted accounts and balances data to CSV file
-    with open('VNAPI_BALANCES_CONVERSION_TOTAL/vnapi_balance_export_accounts.csv', 'w', newline='') as f:
+    with open('scripts/VNAPI_BALANCES_CONVERSION_TOTAL/vnapi_balance_export_accounts.csv', 'w', newline='') as f:
         writer = csv.DictWriter(f, fieldnames=['primaryID', 'balance'])
         writer.writeheader()
         for item in positive_balances:
             writer.writerow(item)
 
     # Export all account ids to CSV file without balances
-    with open('VNAPI_BALANCES_CONVERSION_TOTAL/vnapi_balance_export_accounts_only.csv', 'w', newline='') as f:
+    with open('scripts/VNAPI_BALANCES_CONVERSION_TOTAL/vnapi_balance_export_accounts_only.csv', 'w', newline='') as f:
         writer = csv.DictWriter(f, fieldnames=['primaryID'])
         writer.writeheader()
         for item in data:
@@ -44,4 +44,4 @@ def run():
             except KeyError:
                 writer.writerow({'primaryID': 'No Primary ID Found'})
 
-run()
+# run()

@@ -1,0 +1,158 @@
+{
+    "settings": [
+        {
+            "name": "order_settlement_by_state",
+            "value": [
+                "completed",
+                "delivered_without_alcohol",
+                "not_collected"
+            ],
+            "configuration_model_id": "d30d1a73-2309-4f08-aa79-c4c3fc2103d6"
+        },
+        {
+            "name": "use_menu_categories",
+            "value": false,
+            "configuration_model_id": "d30d1a73-2309-4f08-aa79-c4c3fc2103d6"
+        },
+        {
+            "name": "use_item_categories",
+            "value": true,
+            "configuration_model_id": "d30d1a73-2309-4f08-aa79-c4c3fc2103d6"
+        },
+        {
+            "name": "check_recent_order",
+            "value": false,
+            "configuration_model_id": "d30d1a73-2309-4f08-aa79-c4c3fc2103d6"
+        },
+        {
+            "name": "enable_inventory_management",
+            "value": true,
+            "configuration_model_id": "d30d1a73-2309-4f08-aa79-c4c3fc2103d6"
+        },
+        {
+            "name": "minimum_order_number",
+            "value": 60000,
+            "configuration_model_id": "d30d1a73-2309-4f08-aa79-c4c3fc2103d6"
+        },
+        {
+            "name": "skip_pos_submission",
+            "value": true,
+            "configuration_model_id": "d30d1a73-2309-4f08-aa79-c4c3fc2103d6"
+        },
+        {
+            "name": "skip_pos_submission_state",
+            "value": "completed",
+            "configuration_model_id": "d30d1a73-2309-4f08-aa79-c4c3fc2103d6"
+        },
+        {
+            "name": "xpedite_auto_print_state",
+            "value": "processing",
+            "configuration_model_id": "d30d1a73-2309-4f08-aa79-c4c3fc2103d6"
+        },
+        {
+            "name": "concessions_display_name",
+            "value": "Mobile - Pre-Order Pickup",
+            "configuration_model_id": "d30d1a73-2309-4f08-aa79-c4c3fc2103d6"
+        },
+        {
+            "name": "concessions_orders_usage_type",
+            "value": "pickup",
+            "configuration_model_id": "d30d1a73-2309-4f08-aa79-c4c3fc2103d6"
+        },
+        {
+            "name": "concessions_menus_usage_type",
+            "value": "pickup",
+            "configuration_model_id": "d30d1a73-2309-4f08-aa79-c4c3fc2103d6"
+        },
+        {
+            "name": "delivery_orders_usage_type",
+            "value": "delivery",
+            "configuration_model_id": "d30d1a73-2309-4f08-aa79-c4c3fc2103d6"
+        },
+        {
+            "name": "delivery_menus_usage_type",
+            "value": "delivery",
+            "configuration_model_id": "d30d1a73-2309-4f08-aa79-c4c3fc2103d6"
+        },
+        {
+            "name": "pickup_display_name",
+            "value": "Pick Up",
+            "configuration_model_id": "d30d1a73-2309-4f08-aa79-c4c3fc2103d6"
+        },
+        {
+            "name": "pickup_orders_usage_type",
+            "value": "pickup",
+            "configuration_model_id": "d30d1a73-2309-4f08-aa79-c4c3fc2103d6"
+        },
+        {
+            "name": "pickup_menus_usage_type",
+            "value": "pickup",
+            "configuration_model_id": "d30d1a73-2309-4f08-aa79-c4c3fc2103d6"
+        },
+        {
+            "name": "quickpay_orders_usage_type",
+            "value": "pickup",
+            "configuration_model_id": "d30d1a73-2309-4f08-aa79-c4c3fc2103d6"
+        },
+        {
+            "name": "quickpay_menus_usage_type",
+            "value": "pickup",
+            "configuration_model_id": "d30d1a73-2309-4f08-aa79-c4c3fc2103d6"
+        },
+        {
+            "name": "kiosk_orders_usage_type",
+            "value": "pickup",
+            "configuration_model_id": "d30d1a73-2309-4f08-aa79-c4c3fc2103d6"
+        },
+        {
+            "name": "kiosk_menus_usage_type",
+            "value": "pickup",
+            "configuration_model_id": "d30d1a73-2309-4f08-aa79-c4c3fc2103d6"
+        },
+        {
+            "name": "pos_orders_usage_type",
+            "value": "pickup",
+            "configuration_model_id": "d30d1a73-2309-4f08-aa79-c4c3fc2103d6"
+        },
+        {
+            "name": "pos_menus_usage_type",
+            "value": "pickup",
+            "configuration_model_id": "d30d1a73-2309-4f08-aa79-c4c3fc2103d6"
+        },
+        {
+            "name": "selfcheckout_orders_usage_type",
+            "value": "pickup",
+            "configuration_model_id": "d30d1a73-2309-4f08-aa79-c4c3fc2103d6"
+        },
+        {
+            "name": "selfcheckout_menus_usage_type",
+            "value": "pickup",
+            "configuration_model_id": "d30d1a73-2309-4f08-aa79-c4c3fc2103d6"
+        },
+        {
+            "name": "merch_tax_rate",
+            "value": 0.0,
+            "configuration_model_id": "d30d1a73-2309-4f08-aa79-c4c3fc2103d6"
+        },
+        {
+            "name": "food_tax_rate",
+            "value": 0.0,
+            "configuration_model_id": "d30d1a73-2309-4f08-aa79-c4c3fc2103d6"
+        },
+        {
+            "name": "tax_by_item",
+            "value": true,
+            "configuration_model_id": "d30d1a73-2309-4f08-aa79-c4c3fc2103d6"
+        },
+        {
+            "name": "tax_rate_on_items",
+            "value": true,
+            "configuration_model_id": "d30d1a73-2309-4f08-aa79-c4c3fc2103d6"
+        },
+        {
+            "name": "leading_order_number_text",
+            "value": "PO-",
+            "configuration_model_id": "d30d1a73-2309-4f08-aa79-c4c3fc2103d6"
+        }
+    ]
+}

@@ -22,7 +22,7 @@ def save_json_blob(json_blob, filename):
         json.dump(json_blob, file, indent=4)
 
 def main():
-    file_path = "STANDS_MERCH/uuid_file.txt"  # Specify the path to the text file containing UUIDs
+    file_path = "scripts/STANDS_MERCH/uuid_file.txt"  # Specify the path to the text file containing UUIDs
     venue_uuid = "6184bec2-cdc5-4dc0-b57f-a3f603f99d0e"  # Specify the venue_uuid to apply to all objects
     merchant_token = "<<REDACTED>>"  # Specify the merchant token to apply to all objects
     output_filename = "output.json"  # Specify the desired output filename

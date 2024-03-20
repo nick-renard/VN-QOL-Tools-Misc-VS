@@ -3,11 +3,11 @@ import csv
 
 def run():
     # Read JSON input data
-    with open('./src/SCRIPTS/EXPORT_SPAS/export_spas_input.json') as f:
+    with open('scripts//EXPORT_SPAS/export_spas_input.json') as f:
         data = json.load(f)
 
     # Open output CSV file for writing
-    with open('src/SCRIPTS/EXPORT_SPAS/export_spas_output.csv', 'w', newline='') as f:
+    with open('scripts//EXPORT_SPAS/export_spas_output.csv', 'w', newline='') as f:
         writer = csv.writer(f)
 
         # Write CSV header

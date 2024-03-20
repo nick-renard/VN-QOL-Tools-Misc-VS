@@ -5,7 +5,7 @@ line ="\n"
 
 def run():
     
-    with open("ORDER_INDEX_BULK_TRANSITION/ORDER_UUID_TEXT_FILE/order_list_uuids_input.txt") as file:
+    with open("scripts/ORDER_INDEX_BULK_TRANSITION/ORDER_UUID_TEXT_FILE/order_list_uuids_input.txt") as file:
         uuids = [line.strip() for line in file]
         
     # Print the uuids to the console
@@ -17,6 +17,6 @@ def run():
 
     output_dict = {"order_uuids": uuids, "new_state": new_state}
 
-    with open("ORDER_INDEX_BULK_TRANSITION/ORDER_UUID_TEXT_FILE/order_list_uuid_output.json", "w") as file:
+    with open("scripts/ORDER_INDEX_BULK_TRANSITION/ORDER_UUID_TEXT_FILE/order_list_uuid_output.json", "w") as file:
         json.dump(output_dict, file, indent=4)
         

@@ -2,7 +2,7 @@ import json
 
 def run():
     # Load JSON file
-    with open('STAND_UPDATE_ORG_NAME/stands_index_input.json') as f:
+    with open('scripts/STAND_UPDATE_ORG_NAME/stands_index_input.json') as f:
         data = json.load(f)
 
     # Prompt user for new organization name
@@ -24,5 +24,5 @@ def run():
     output_data = {'stands': stands}
 
     # Export extracted data to JSON file
-    with open('STAND_UPDATE_ORG_NAME/stands_index_output.json', 'w') as f:
+    with open('scripts/STAND_UPDATE_ORG_NAME/stands_index_output.json', 'w') as f:
         json.dump(output_data, f, indent=2)

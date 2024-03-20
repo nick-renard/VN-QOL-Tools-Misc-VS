@@ -1,0 +1,2957 @@
+{
+    "settings": [
+        {
+            "name": "order_settlement_by_state",
+            "value": [
+                "not_collected"
+            ],
+            "configuration_model_id": "autonomous_jwo"
+        },
+        {
+            "name": "use_menu_categories",
+            "value": false,
+            "configuration_model_id": "autonomous_jwo"
+        },
+        {
+            "name": "use_item_categories",
+            "value": true,
+            "configuration_model_id": "autonomous_jwo"
+        },
+        {
+            "name": "check_recent_order",
+            "value": false,
+            "configuration_model_id": "autonomous_jwo"
+        },
+        {
+            "name": "enable_inventory_management",
+            "value": true,
+            "configuration_model_id": "autonomous_jwo"
+        },
+        {
+            "name": "minimum_order_number",
+            "value": "70000",
+            "configuration_model_id": "autonomous_jwo"
+        },
+        {
+            "name": "skip_pos_submission",
+            "value": true,
+            "configuration_model_id": "autonomous_jwo"
+        },
+        {
+            "name": "skip_pos_submission_state",
+            "value": "completed",
+            "configuration_model_id": "autonomous_jwo"
+        },
+        {
+            "name": "xpedite_auto_print_state",
+            "value": "processing",
+            "configuration_model_id": "autonomous_jwo"
+        },
+        {
+            "name": "concessions_display_name",
+            "value": "Autonomous - JWO",
+            "configuration_model_id": "autonomous_jwo"
+        },
+        {
+            "name": "concessions_orders_usage_type",
+            "value": "pickup",
+            "configuration_model_id": "autonomous_jwo"
+        },
+        {
+            "name": "concessions_menus_usage_type",
+            "value": "pickup",
+            "configuration_model_id": "autonomous_jwo"
+        },
+        {
+            "name": "delivery_orders_usage_type",
+            "value": "delivery",
+            "configuration_model_id": "autonomous_jwo"
+        },
+        {
+            "name": "delivery_menus_usage_type",
+            "value": "delivery",
+            "configuration_model_id": "autonomous_jwo"
+        },
+        {
+            "name": "pickup_display_name",
+            "value": "Pick Up",
+            "configuration_model_id": "autonomous_jwo"
+        },
+        {
+            "name": "pickup_orders_usage_type",
+            "value": "pickup",
+            "configuration_model_id": "autonomous_jwo"
+        },
+        {
+            "name": "pickup_menus_usage_type",
+            "value": "pickup",
+            "configuration_model_id": "autonomous_jwo"
+        },
+        {
+            "name": "quickpay_orders_usage_type",
+            "value": "pickup",
+            "configuration_model_id": "autonomous_jwo"
+        },
+        {
+            "name": "quickpay_menus_usage_type",
+            "value": "pickup",
+            "configuration_model_id": "autonomous_jwo"
+        },
+        {
+            "name": "kiosk_orders_usage_type",
+            "value": "pickup",
+            "configuration_model_id": "autonomous_jwo"
+        },
+        {
+            "name": "kiosk_menus_usage_type",
+            "value": "pickup",
+            "configuration_model_id": "autonomous_jwo"
+        },
+        {
+            "name": "pos_orders_usage_type",
+            "value": "pickup",
+            "configuration_model_id": "autonomous_jwo"
+        },
+        {
+            "name": "pos_menus_usage_type",
+            "value": "pickup",
+            "configuration_model_id": "autonomous_jwo"
+        },
+        {
+            "name": "selfcheckout_orders_usage_type",
+            "value": "pickup",
+            "configuration_model_id": "autonomous_jwo"
+        },
+        {
+            "name": "selfcheckout_menus_usage_type",
+            "value": "pickup",
+            "configuration_model_id": "autonomous_jwo"
+        },
+        {
+            "name": "merch_tax_rate",
+            "value": 0.0,
+            "configuration_model_id": "autonomous_jwo"
+        },
+        {
+            "name": "food_tax_rate",
+            "value": 0.0,
+            "configuration_model_id": "autonomous_jwo"
+        },
+        {
+            "name": "tax_by_item",
+            "value": true,
+            "configuration_model_id": "autonomous_jwo"
+        },
+        {
+            "name": "tax_rate_on_items",
+            "value": true,
+            "configuration_model_id": "autonomous_jwo"
+        },
+        {
+            "name": "leading_order_number_text",
+            "value": "JWO",
+            "configuration_model_id": "autonomous_jwo"
+        },
+        {
+            "name": "concessions_completed_display_name",
+            "value": "Completed!",
+            "configuration_model_id": "autonomous_jwo"
+        },
+        {
+            "name": "concessions_completed_description",
+            "value": "Hi #{first_name}, your order has been completed successfully. Thanks for stopping by!",
+            "configuration_model_id": "autonomous_jwo"
+        },
+        {
+            "name": "concessions_refunded_display_name",
+            "value": "Your order has been refunded.",
+            "configuration_model_id": "autonomous_jwo"
+        },
+        {
+            "name": "concessions_refunded_description",
+            "value": "Hi #{first_name}, your order has been successfully refunded.",
+            "configuration_model_id": "autonomous_jwo"
+        },
+        {
+            "name": "concessions_partially_refunded_display_name",
+            "value": "Partially Refunded",
+            "configuration_model_id": "autonomous_jwo"
+        },
+        {
+            "name": "concessions_partially_refunded_description",
+            "value": "Hi #{first_name}, some items within this order have been refunded.",
+            "configuration_model_id": "autonomous_jwo"
+        },
+        {
+            "name": "concessions_authorization_failed_display_name",
+            "value": "Order Submission Failed",
+            "configuration_model_id": "autonomous_jwo"
+        },
+        {
+            "name": "concessions_authorization_failed_description",
+            "value": "Hi #{first_name}, your order could not be completed. Please try submitting the order again.",
+            "configuration_model_id": "autonomous_jwo"
+        },
+        {
+            "name": "concessions_settlement_failed_display_name",
+            "value": "We ran into an issue...",
+            "configuration_model_id": "autonomous_jwo"
+        },
+        {
+            "name": "concessions_settlement_failed_description",
+            "value": "Hi #{first_name}, your order payment could not be settled. Please try submitting the order again.",
+            "configuration_model_id": "autonomous_jwo"
+        },
+        {
+            "name": "concessions_cancelled_display_name",
+            "value": "Your order has been cancelled.",
+            "configuration_model_id": "autonomous_jwo"
+        },
+        {
+            "name": "concessions_cancelled_description",
+            "value": "Hi #{first_name}, your order has been cancelled.",
+            "configuration_model_id": "autonomous_jwo"
+        },
+        {
+            "name": "concessions_refund_failed_display_name",
+            "value": "Refund Attempted",
+            "configuration_model_id": "autonomous_jwo"
+        },
+        {
+            "name": "concessions_refund_failed_description",
+            "value": "Hi #{first_name}, we tried to refund your order but there was a problem. We will resolve this shortly.",
+            "configuration_model_id": "autonomous_jwo"
+        },
+        {
+            "name": "order_settlement_by_state",
+            "value": [
+                "not_collected"
+            ],
+            "configuration_model_id": "autonomous_zippin"
+        },
+        {
+            "name": "use_menu_categories",
+            "value": false,
+            "configuration_model_id": "autonomous_zippin"
+        },
+        {
+            "name": "use_item_categories",
+            "value": true,
+            "configuration_model_id": "autonomous_zippin"
+        },
+        {
+            "name": "check_recent_order",
+            "value": false,
+            "configuration_model_id": "autonomous_zippin"
+        },
+        {
+            "name": "enable_inventory_management",
+            "value": true,
+            "configuration_model_id": "autonomous_zippin"
+        },
+        {
+            "name": "minimum_order_number",
+            "value": "70000",
+            "configuration_model_id": "autonomous_zippin"
+        },
+        {
+            "name": "skip_pos_submission",
+            "value": true,
+            "configuration_model_id": "autonomous_zippin"
+        },
+        {
+            "name": "skip_pos_submission_state",
+            "value": "completed",
+            "configuration_model_id": "autonomous_zippin"
+        },
+        {
+            "name": "xpedite_auto_print_state",
+            "value": "processing",
+            "configuration_model_id": "autonomous_zippin"
+        },
+        {
+            "name": "concessions_display_name",
+            "value": "Autonomous - Zippin",
+            "configuration_model_id": "autonomous_zippin"
+        },
+        {
+            "name": "concessions_orders_usage_type",
+            "value": "pickup",
+            "configuration_model_id": "autonomous_zippin"
+        },
+        {
+            "name": "concessions_menus_usage_type",
+            "value": "pickup",
+            "configuration_model_id": "autonomous_zippin"
+        },
+        {
+            "name": "delivery_orders_usage_type",
+            "value": "delivery",
+            "configuration_model_id": "autonomous_zippin"
+        },
+        {
+            "name": "delivery_menus_usage_type",
+            "value": "delivery",
+            "configuration_model_id": "autonomous_zippin"
+        },
+        {
+            "name": "pickup_display_name",
+            "value": "Pick Up",
+            "configuration_model_id": "autonomous_zippin"
+        },
+        {
+            "name": "pickup_orders_usage_type",
+            "value": "pickup",
+            "configuration_model_id": "autonomous_zippin"
+        },
+        {
+            "name": "pickup_menus_usage_type",
+            "value": "pickup",
+            "configuration_model_id": "autonomous_zippin"
+        },
+        {
+            "name": "quickpay_orders_usage_type",
+            "value": "pickup",
+            "configuration_model_id": "autonomous_zippin"
+        },
+        {
+            "name": "quickpay_menus_usage_type",
+            "value": "pickup",
+            "configuration_model_id": "autonomous_zippin"
+        },
+        {
+            "name": "kiosk_orders_usage_type",
+            "value": "pickup",
+            "configuration_model_id": "autonomous_zippin"
+        },
+        {
+            "name": "kiosk_menus_usage_type",
+            "value": "pickup",
+            "configuration_model_id": "autonomous_zippin"
+        },
+        {
+            "name": "pos_orders_usage_type",
+            "value": "pickup",
+            "configuration_model_id": "autonomous_zippin"
+        },
+        {
+            "name": "pos_menus_usage_type",
+            "value": "pickup",
+            "configuration_model_id": "autonomous_zippin"
+        },
+        {
+            "name": "selfcheckout_orders_usage_type",
+            "value": "pickup",
+            "configuration_model_id": "autonomous_zippin"
+        },
+        {
+            "name": "selfcheckout_menus_usage_type",
+            "value": "pickup",
+            "configuration_model_id": "autonomous_zippin"
+        },
+        {
+            "name": "merch_tax_rate",
+            "value": 0.0,
+            "configuration_model_id": "autonomous_zippin"
+        },
+        {
+            "name": "food_tax_rate",
+            "value": 0.0,
+            "configuration_model_id": "autonomous_zippin"
+        },
+        {
+            "name": "tax_by_item",
+            "value": true,
+            "configuration_model_id": "autonomous_zippin"
+        },
+        {
+            "name": "tax_rate_on_items",
+            "value": true,
+            "configuration_model_id": "autonomous_zippin"
+        },
+        {
+            "name": "leading_order_number_text",
+            "value": "ZPN",
+            "configuration_model_id": "autonomous_zippin"
+        },
+        {
+            "name": "concessions_completed_display_name",
+            "value": "Completed!",
+            "configuration_model_id": "autonomous_zippin"
+        },
+        {
+            "name": "concessions_completed_description",
+            "value": "Hi #{first_name}, your order has been completed successfully. Thanks for stopping by!",
+            "configuration_model_id": "autonomous_zippin"
+        },
+        {
+            "name": "concessions_refunded_display_name",
+            "value": "Your order has been refunded.",
+            "configuration_model_id": "autonomous_zippin"
+        },
+        {
+            "name": "concessions_refunded_description",
+            "value": "Hi #{first_name}, your order has been successfully refunded.",
+            "configuration_model_id": "autonomous_zippin"
+        },
+        {
+            "name": "concessions_partially_refunded_display_name",
+            "value": "Partially Refunded",
+            "configuration_model_id": "autonomous_zippin"
+        },
+        {
+            "name": "concessions_partially_refunded_description",
+            "value": "Hi #{first_name}, some items within this order have been refunded.",
+            "configuration_model_id": "autonomous_zippin"
+        },
+        {
+            "name": "concessions_authorization_failed_display_name",
+            "value": "Order Submission Failed",
+            "configuration_model_id": "autonomous_zippin"
+        },
+        {
+            "name": "concessions_authorization_failed_description",
+            "value": "Hi #{first_name}, your order could not be completed. Please try submitting the order again.",
+            "configuration_model_id": "autonomous_zippin"
+        },
+        {
+            "name": "concessions_settlement_failed_display_name",
+            "value": "We ran into an issue...",
+            "configuration_model_id": "autonomous_zippin"
+        },
+        {
+            "name": "concessions_settlement_failed_description",
+            "value": "Hi #{first_name}, your order payment could not be settled. Please try submitting the order again.",
+            "configuration_model_id": "autonomous_zippin"
+        },
+        {
+            "name": "concessions_cancelled_display_name",
+            "value": "Your order has been cancelled.",
+            "configuration_model_id": "autonomous_zippin"
+        },
+        {
+            "name": "concessions_cancelled_description",
+            "value": "Hi #{first_name}, your order has been cancelled.",
+            "configuration_model_id": "autonomous_zippin"
+        },
+        {
+            "name": "concessions_refund_failed_display_name",
+            "value": "Refund Attempted",
+            "configuration_model_id": "autonomous_zippin"
+        },
+        {
+            "name": "concessions_refund_failed_description",
+            "value": "Hi #{first_name}, we tried to refund your order but there was a problem. We will resolve this shortly.",
+            "configuration_model_id": "autonomous_zippin"
+        },
+        {
+            "name": "order_settlement_by_state",
+            "value": [
+                "completed",
+                "delivered_without_alcohol",
+                "not_collected"
+            ],
+            "configuration_model_id": "kiosk_belly_up"
+        },
+        {
+            "name": "use_menu_categories",
+            "value": false,
+            "configuration_model_id": "kiosk_belly_up"
+        },
+        {
+            "name": "use_item_categories",
+            "value": true,
+            "configuration_model_id": "kiosk_belly_up"
+        },
+        {
+            "name": "check_recent_order",
+            "value": false,
+            "configuration_model_id": "kiosk_belly_up"
+        },
+        {
+            "name": "enable_inventory_management",
+            "value": true,
+            "configuration_model_id": "kiosk_belly_up"
+        },
+        {
+            "name": "minimum_order_number",
+            "value": "80000",
+            "configuration_model_id": "kiosk_belly_up"
+        },
+        {
+            "name": "skip_pos_submission",
+            "value": true,
+            "configuration_model_id": "kiosk_belly_up"
+        },
+        {
+            "name": "skip_pos_submission_state",
+            "value": "processing",
+            "configuration_model_id": "kiosk_belly_up"
+        },
+        {
+            "name": "xpedite_auto_print_state",
+            "value": "processing",
+            "configuration_model_id": "kiosk_belly_up"
+        },
+        {
+            "name": "concessions_orders_usage_type",
+            "value": "pickup",
+            "configuration_model_id": "kiosk_belly_up"
+        },
+        {
+            "name": "concessions_menus_usage_type",
+            "value": "pickup",
+            "configuration_model_id": "kiosk_belly_up"
+        },
+        {
+            "name": "delivery_orders_usage_type",
+            "value": "delivery",
+            "configuration_model_id": "kiosk_belly_up"
+        },
+        {
+            "name": "delivery_menus_usage_type",
+            "value": "delivery",
+            "configuration_model_id": "kiosk_belly_up"
+        },
+        {
+            "name": "pickup_display_name",
+            "value": "Pick Up",
+            "configuration_model_id": "kiosk_belly_up"
+        },
+        {
+            "name": "pickup_orders_usage_type",
+            "value": "pickup",
+            "configuration_model_id": "kiosk_belly_up"
+        },
+        {
+            "name": "pickup_menus_usage_type",
+            "value": "pickup",
+            "configuration_model_id": "kiosk_belly_up"
+        },
+        {
+            "name": "quickpay_orders_usage_type",
+            "value": "pickup",
+            "configuration_model_id": "kiosk_belly_up"
+        },
+        {
+            "name": "quickpay_menus_usage_type",
+            "value": "pickup",
+            "configuration_model_id": "kiosk_belly_up"
+        },
+        {
+            "name": "kiosk_display_name",
+            "value": "Kiosk - Belly Up",
+            "configuration_model_id": "kiosk_belly_up"
+        },
+        {
+            "name": "kiosk_orders_usage_type",
+            "value": "pickup",
+            "configuration_model_id": "kiosk_belly_up"
+        },
+        {
+            "name": "kiosk_menus_usage_type",
+            "value": "pickup",
+            "configuration_model_id": "kiosk_belly_up"
+        },
+        {
+            "name": "pos_orders_usage_type",
+            "value": "pickup",
+            "configuration_model_id": "kiosk_belly_up"
+        },
+        {
+            "name": "pos_menus_usage_type",
+            "value": "pickup",
+            "configuration_model_id": "kiosk_belly_up"
+        },
+        {
+            "name": "selfcheckout_orders_usage_type",
+            "value": "pickup",
+            "configuration_model_id": "kiosk_belly_up"
+        },
+        {
+            "name": "selfcheckout_menus_usage_type",
+            "value": "pickup",
+            "configuration_model_id": "kiosk_belly_up"
+        },
+        {
+            "name": "merch_tax_rate",
+            "value": 0.0,
+            "configuration_model_id": "kiosk_belly_up"
+        },
+        {
+            "name": "food_tax_rate",
+            "value": 0.0,
+            "configuration_model_id": "kiosk_belly_up"
+        },
+        {
+            "name": "tax_by_item",
+            "value": true,
+            "configuration_model_id": "kiosk_belly_up"
+        },
+        {
+            "name": "tax_rate_on_items",
+            "value": true,
+            "configuration_model_id": "kiosk_belly_up"
+        },
+        {
+            "name": "kiosk_processing_display_name",
+            "value": "You order has been placed!",
+            "configuration_model_id": "kiosk_belly_up"
+        },
+        {
+            "name": "kiosk_processing_description",
+            "value": "Hi #{first_name}, thank you for your order. We will update this page when your order is ready for pickup from #{location_name}.",
+            "configuration_model_id": "kiosk_belly_up"
+        },
+        {
+            "name": "kiosk_completed_display_name",
+            "value": "Completed!",
+            "configuration_model_id": "kiosk_belly_up"
+        },
+        {
+            "name": "kiosk_completed_description",
+            "value": "Hi #{first_name}, your order has been completed successfully.",
+            "configuration_model_id": "kiosk_belly_up"
+        },
+        {
+            "name": "kiosk_refunded_display_name",
+            "value": "Your order has been refunded.",
+            "configuration_model_id": "kiosk_belly_up"
+        },
+        {
+            "name": "kiosk_refunded_description",
+            "value": "Hi #{first_name}, your order has been successfully refunded.",
+            "configuration_model_id": "kiosk_belly_up"
+        },
+        {
+            "name": "kiosk_partially_refunded_display_name",
+            "value": "Partially Refunded",
+            "configuration_model_id": "kiosk_belly_up"
+        },
+        {
+            "name": "kiosk_partially_refunded_description",
+            "value": "Hi #{first_name}, some items within this order have been refunded.",
+            "configuration_model_id": "kiosk_belly_up"
+        },
+        {
+            "name": "kiosk_cancelled_display_name",
+            "value": "Your order has been cancelled.",
+            "configuration_model_id": "kiosk_belly_up"
+        },
+        {
+            "name": "kiosk_cancelled_description",
+            "value": "Hi #{first_name}, your order has been cancelled.",
+            "configuration_model_id": "kiosk_belly_up"
+        },
+        {
+            "name": "kiosk_refund_failed_display_name",
+            "value": "Refund Attempted",
+            "configuration_model_id": "kiosk_belly_up"
+        },
+        {
+            "name": "kiosk_refund_failed_description",
+            "value": "Hi #{first_name}, we tried to refund your order but there was a problem. We will resolve this shortly.",
+            "configuration_model_id": "kiosk_belly_up"
+        },
+        {
+            "name": "order_settlement_by_state",
+            "value": [
+                "completed",
+                "delivered_without_alcohol",
+                "not_collected"
+            ],
+            "configuration_model_id": "kiosk_order_pay_fulfill"
+        },
+        {
+            "name": "use_menu_categories",
+            "value": false,
+            "configuration_model_id": "kiosk_order_pay_fulfill"
+        },
+        {
+            "name": "use_item_categories",
+            "value": true,
+            "configuration_model_id": "kiosk_order_pay_fulfill"
+        },
+        {
+            "name": "check_recent_order",
+            "value": false,
+            "configuration_model_id": "kiosk_order_pay_fulfill"
+        },
+        {
+            "name": "enable_inventory_management",
+            "value": true,
+            "configuration_model_id": "kiosk_order_pay_fulfill"
+        },
+        {
+            "name": "minimum_order_number",
+            "value": "90000",
+            "configuration_model_id": "kiosk_order_pay_fulfill"
+        },
+        {
+            "name": "skip_pos_submission",
+            "value": true,
+            "configuration_model_id": "kiosk_order_pay_fulfill"
+        },
+        {
+            "name": "skip_pos_submission_state",
+            "value": "completed",
+            "configuration_model_id": "kiosk_order_pay_fulfill"
+        },
+        {
+            "name": "xpedite_auto_print_state",
+            "value": "processing",
+            "configuration_model_id": "kiosk_order_pay_fulfill"
+        },
+        {
+            "name": "concessions_orders_usage_type",
+            "value": "pickup",
+            "configuration_model_id": "kiosk_order_pay_fulfill"
+        },
+        {
+            "name": "concessions_menus_usage_type",
+            "value": "pickup",
+            "configuration_model_id": "kiosk_order_pay_fulfill"
+        },
+        {
+            "name": "delivery_orders_usage_type",
+            "value": "delivery",
+            "configuration_model_id": "kiosk_order_pay_fulfill"
+        },
+        {
+            "name": "delivery_menus_usage_type",
+            "value": "delivery",
+            "configuration_model_id": "kiosk_order_pay_fulfill"
+        },
+        {
+            "name": "pickup_display_name",
+            "value": "Pick Up",
+            "configuration_model_id": "kiosk_order_pay_fulfill"
+        },
+        {
+            "name": "pickup_orders_usage_type",
+            "value": "pickup",
+            "configuration_model_id": "kiosk_order_pay_fulfill"
+        },
+        {
+            "name": "pickup_menus_usage_type",
+            "value": "pickup",
+            "configuration_model_id": "kiosk_order_pay_fulfill"
+        },
+        {
+            "name": "quickpay_orders_usage_type",
+            "value": "pickup",
+            "configuration_model_id": "kiosk_order_pay_fulfill"
+        },
+        {
+            "name": "quickpay_menus_usage_type",
+            "value": "pickup",
+            "configuration_model_id": "kiosk_order_pay_fulfill"
+        },
+        {
+            "name": "kiosk_display_name",
+            "value": "Kiosk - Order Pay Fulfill",
+            "configuration_model_id": "kiosk_order_pay_fulfill"
+        },
+        {
+            "name": "kiosk_orders_usage_type",
+            "value": "pickup",
+            "configuration_model_id": "kiosk_order_pay_fulfill"
+        },
+        {
+            "name": "kiosk_menus_usage_type",
+            "value": "pickup",
+            "configuration_model_id": "kiosk_order_pay_fulfill"
+        },
+        {
+            "name": "pos_orders_usage_type",
+            "value": "pickup",
+            "configuration_model_id": "kiosk_order_pay_fulfill"
+        },
+        {
+            "name": "pos_menus_usage_type",
+            "value": "pickup",
+            "configuration_model_id": "kiosk_order_pay_fulfill"
+        },
+        {
+            "name": "selfcheckout_orders_usage_type",
+            "value": "pickup",
+            "configuration_model_id": "kiosk_order_pay_fulfill"
+        },
+        {
+            "name": "selfcheckout_menus_usage_type",
+            "value": "pickup",
+            "configuration_model_id": "kiosk_order_pay_fulfill"
+        },
+        {
+            "name": "merch_tax_rate",
+            "value": 0.0,
+            "configuration_model_id": "kiosk_order_pay_fulfill"
+        },
+        {
+            "name": "food_tax_rate",
+            "value": 0.0,
+            "configuration_model_id": "kiosk_order_pay_fulfill"
+        },
+        {
+            "name": "tax_by_item",
+            "value": true,
+            "configuration_model_id": "kiosk_order_pay_fulfill"
+        },
+        {
+            "name": "tax_rate_on_items",
+            "value": true,
+            "configuration_model_id": "kiosk_order_pay_fulfill"
+        },
+        {
+            "name": "kiosk_queued_display_name",
+            "value": "You order has been placed!",
+            "configuration_model_id": "kiosk_order_pay_fulfill"
+        },
+        {
+            "name": "kiosk_queued_description",
+            "value": "Hi #{first_name}, thank you for your order. We will update this page when your order is ready for pickup from #{location_name}.",
+            "configuration_model_id": "kiosk_order_pay_fulfill"
+        },
+        {
+            "name": "kiosk_processing_display_name",
+            "value": "You order has been placed!",
+            "configuration_model_id": "kiosk_order_pay_fulfill"
+        },
+        {
+            "name": "kiosk_processing_description",
+            "value": "Hi #{first_name}, thank you for your order. We will update this page when your order is ready for pickup from #{location_name}.",
+            "configuration_model_id": "kiosk_order_pay_fulfill"
+        },
+        {
+            "name": "kiosk_bumped_display_name",
+            "value": "Ready for pickup!",
+            "configuration_model_id": "kiosk_order_pay_fulfill"
+        },
+        {
+            "name": "kiosk_bumped_description",
+            "value": "Hi #{first_name}, you order is ready at #{location_name}",
+            "configuration_model_id": "kiosk_order_pay_fulfill"
+        },
+        {
+            "name": "kiosk_completed_display_name",
+            "value": "Completed!",
+            "configuration_model_id": "kiosk_order_pay_fulfill"
+        },
+        {
+            "name": "kiosk_completed_description",
+            "value": "Hi #{first_name}, your order has been completed successfully.",
+            "configuration_model_id": "kiosk_order_pay_fulfill"
+        },
+        {
+            "name": "kiosk_refunded_display_name",
+            "value": "Your order has been refunded.",
+            "configuration_model_id": "kiosk_order_pay_fulfill"
+        },
+        {
+            "name": "kiosk_refunded_description",
+            "value": "Hi #{first_name}, your order has been successfully refunded.",
+            "configuration_model_id": "kiosk_order_pay_fulfill"
+        },
+        {
+            "name": "kiosk_partially_refunded_display_name",
+            "value": "Partially Refunded",
+            "configuration_model_id": "kiosk_order_pay_fulfill"
+        },
+        {
+            "name": "kiosk_partially_refunded_description",
+            "value": "Hi #{first_name}, some items within this order have been refunded.",
+            "configuration_model_id": "kiosk_order_pay_fulfill"
+        },
+        {
+            "name": "kiosk_cancelled_display_name",
+            "value": "Your order has been cancelled.",
+            "configuration_model_id": "kiosk_order_pay_fulfill"
+        },
+        {
+            "name": "kiosk_cancelled_description",
+            "value": "Hi #{first_name}, your order has been cancelled.",
+            "configuration_model_id": "kiosk_order_pay_fulfill"
+        },
+        {
+            "name": "kiosk_refund_failed_display_name",
+            "value": "Refund Attempted",
+            "configuration_model_id": "kiosk_order_pay_fulfill"
+        },
+        {
+            "name": "kiosk_refund_failed_description",
+            "value": "Hi #{first_name}, we tried to refund your order but there was a problem. We will resolve this shortly.",
+            "configuration_model_id": "kiosk_order_pay_fulfill"
+        },
+        {
+            "name": "order_settlement_by_state",
+            "value": [
+                "completed",
+                "delivered_without_alcohol",
+                "not_collected"
+            ],
+            "configuration_model_id": "mobile_delivery"
+        },
+        {
+            "name": "use_menu_categories",
+            "value": false,
+            "configuration_model_id": "mobile_delivery"
+        },
+        {
+            "name": "use_item_categories",
+            "value": true,
+            "configuration_model_id": "mobile_delivery"
+        },
+        {
+            "name": "check_recent_order",
+            "value": false,
+            "configuration_model_id": "mobile_delivery"
+        },
+        {
+            "name": "enable_inventory_management",
+            "value": true,
+            "configuration_model_id": "mobile_delivery"
+        },
+        {
+            "name": "minimum_order_number",
+            "value": "20000",
+            "configuration_model_id": "mobile_delivery"
+        },
+        {
+            "name": "skip_pos_submission",
+            "value": true,
+            "configuration_model_id": "mobile_delivery"
+        },
+        {
+            "name": "skip_pos_submission_state",
+            "value": "processing",
+            "configuration_model_id": "mobile_delivery"
+        },
+        {
+            "name": "xpedite_auto_print_state",
+            "value": "processing",
+            "configuration_model_id": "mobile_delivery"
+        },
+        {
+            "name": "concessions_orders_usage_type",
+            "value": "pickup",
+            "configuration_model_id": "mobile_delivery"
+        },
+        {
+            "name": "concessions_menus_usage_type",
+            "value": "pickup",
+            "configuration_model_id": "mobile_delivery"
+        },
+        {
+            "name": "delivery_display_name",
+            "value": "Mobile - Delivery",
+            "configuration_model_id": "mobile_delivery"
+        },
+        {
+            "name": "delivery_orders_usage_type",
+            "value": "delivery",
+            "configuration_model_id": "mobile_delivery"
+        },
+        {
+            "name": "delivery_menus_usage_type",
+            "value": "delivery",
+            "configuration_model_id": "mobile_delivery"
+        },
+        {
+            "name": "pickup_display_name",
+            "value": "Pick Up",
+            "configuration_model_id": "mobile_delivery"
+        },
+        {
+            "name": "pickup_orders_usage_type",
+            "value": "pickup",
+            "configuration_model_id": "mobile_delivery"
+        },
+        {
+            "name": "pickup_menus_usage_type",
+            "value": "pickup",
+            "configuration_model_id": "mobile_delivery"
+        },
+        {
+            "name": "quickpay_orders_usage_type",
+            "value": "pickup",
+            "configuration_model_id": "mobile_delivery"
+        },
+        {
+            "name": "quickpay_menus_usage_type",
+            "value": "pickup",
+            "configuration_model_id": "mobile_delivery"
+        },
+        {
+            "name": "kiosk_orders_usage_type",
+            "value": "pickup",
+            "configuration_model_id": "mobile_delivery"
+        },
+        {
+            "name": "kiosk_menus_usage_type",
+            "value": "pickup",
+            "configuration_model_id": "mobile_delivery"
+        },
+        {
+            "name": "pos_orders_usage_type",
+            "value": "pickup",
+            "configuration_model_id": "mobile_delivery"
+        },
+        {
+            "name": "pos_menus_usage_type",
+            "value": "pickup",
+            "configuration_model_id": "mobile_delivery"
+        },
+        {
+            "name": "selfcheckout_orders_usage_type",
+            "value": "pickup",
+            "configuration_model_id": "mobile_delivery"
+        },
+        {
+            "name": "selfcheckout_menus_usage_type",
+            "value": "pickup",
+            "configuration_model_id": "mobile_delivery"
+        },
+        {
+            "name": "merch_tax_rate",
+            "value": 0.0,
+            "configuration_model_id": "mobile_delivery"
+        },
+        {
+            "name": "food_tax_rate",
+            "value": 0.0,
+            "configuration_model_id": "mobile_delivery"
+        },
+        {
+            "name": "tax_by_item",
+            "value": true,
+            "configuration_model_id": "mobile_delivery"
+        },
+        {
+            "name": "tax_rate_on_items",
+            "value": true,
+            "configuration_model_id": "mobile_delivery"
+        },
+        {
+            "name": "delivery_queued_display_name",
+            "value": "You order has been placed!",
+            "configuration_model_id": "mobile_delivery"
+        },
+        {
+            "name": "delivery_queued_description",
+            "value": "Hi #{first_name}, your order has been placed. This screen will update when your order is out for delivery.",
+            "configuration_model_id": "mobile_delivery"
+        },
+        {
+            "name": "delivery_processing_display_name",
+            "value": "We are preparing your order!",
+            "configuration_model_id": "mobile_delivery"
+        },
+        {
+            "name": "delivery_processing_description",
+            "value": "Hi #{first_name}, we are currently working on your order. This screen will update when your order is out for delivery.",
+            "configuration_model_id": "mobile_delivery"
+        },
+        {
+            "name": "delivery_bumped_display_name",
+            "value": "Out for delivery!",
+            "configuration_model_id": "mobile_delivery"
+        },
+        {
+            "name": "delivery_bumped_description",
+            "value": "Hi #{first_name}, you order is currently being delivered. Enjoy!",
+            "configuration_model_id": "mobile_delivery"
+        },
+        {
+            "name": "delivery_completed_display_name",
+            "value": "Completed!",
+            "configuration_model_id": "mobile_delivery"
+        },
+        {
+            "name": "delivery_completed_description",
+            "value": "Hi #{first_name}, your order has been completed successfully.",
+            "configuration_model_id": "mobile_delivery"
+        },
+        {
+            "name": "delivery_refunded_display_name",
+            "value": "Your order has been refunded.",
+            "configuration_model_id": "mobile_delivery"
+        },
+        {
+            "name": "delivery_refunded_description",
+            "value": "Hi #{first_name}, your order has been successfully refunded.",
+            "configuration_model_id": "mobile_delivery"
+        },
+        {
+            "name": "delivery_partially_refunded_display_name",
+            "value": "Partially Refunded",
+            "configuration_model_id": "mobile_delivery"
+        },
+        {
+            "name": "delivery_partially_refunded_description",
+            "value": "Hi #{first_name}, some items within this order have been refunded.",
+            "configuration_model_id": "mobile_delivery"
+        },
+        {
+            "name": "delivery_authorization_failed_display_name",
+            "value": "Order Submission Failed",
+            "configuration_model_id": "mobile_delivery"
+        },
+        {
+            "name": "delivery_authorization_failed_description",
+            "value": "Hi #{first_name}, your order could not be completed. Please try submitting the order again.",
+            "configuration_model_id": "mobile_delivery"
+        },
+        {
+            "name": "delivery_settlement_failed_display_name",
+            "value": "We ran into an issue...",
+            "configuration_model_id": "mobile_delivery"
+        },
+        {
+            "name": "delivery_settlement_failed_description",
+            "value": "Hi #{first_name}, your order payment could not be settled. Please try submitting the order again.",
+            "configuration_model_id": "mobile_delivery"
+        },
+        {
+            "name": "delivery_cancelled_display_name",
+            "value": "Your order has been cancelled.",
+            "configuration_model_id": "mobile_delivery"
+        },
+        {
+            "name": "delivery_cancelled_description",
+            "value": "Hi #{first_name}, your order has been cancelled.",
+            "configuration_model_id": "mobile_delivery"
+        },
+        {
+            "name": "delivery_delivered_without_alcohol_display_name",
+            "value": "Out for delivery!",
+            "configuration_model_id": "mobile_delivery"
+        },
+        {
+            "name": "delivery_delivered_without_alcohol_description",
+            "value": "Hi #{first_name}, your order is out for delivery! However, we cancelled the alcoholic items.",
+            "configuration_model_id": "mobile_delivery"
+        },
+        {
+            "name": "delivery_refund_failed_display_name",
+            "value": "Refund Attempted",
+            "configuration_model_id": "mobile_delivery"
+        },
+        {
+            "name": "delivery_refund_failed_description",
+            "value": "Hi #{first_name}, we tried to refund your order but there was a problem. We will resolve this shortly.",
+            "configuration_model_id": "mobile_delivery"
+        },
+        {
+            "name": "delivery_not_collected_display_name",
+            "value": "Sorry we missed you!",
+            "configuration_model_id": "mobile_delivery"
+        },
+        {
+            "name": "delivery_not_collected_description",
+            "value": "Hi #{first_name}. We couldn't locate you to deliver your order. If you have any concerns with your payment, please contact a customer service representative.",
+            "configuration_model_id": "mobile_delivery"
+        },
+        {
+            "name": "order_settlement_by_state",
+            "value": [
+                "completed",
+                "delivered_without_alcohol",
+                "not_collected"
+            ],
+            "configuration_model_id": "mobile_pickup"
+        },
+        {
+            "name": "use_menu_categories",
+            "value": false,
+            "configuration_model_id": "mobile_pickup"
+        },
+        {
+            "name": "use_item_categories",
+            "value": true,
+            "configuration_model_id": "mobile_pickup"
+        },
+        {
+            "name": "check_recent_order",
+            "value": false,
+            "configuration_model_id": "mobile_pickup"
+        },
+        {
+            "name": "enable_inventory_management",
+            "value": true,
+            "configuration_model_id": "mobile_pickup"
+        },
+        {
+            "name": "minimum_order_number",
+            "value": "10000",
+            "configuration_model_id": "mobile_pickup"
+        },
+        {
+            "name": "skip_pos_submission",
+            "value": true,
+            "configuration_model_id": "mobile_pickup"
+        },
+        {
+            "name": "skip_pos_submission_state",
+            "value": "processing",
+            "configuration_model_id": "mobile_pickup"
+        },
+        {
+            "name": "xpedite_auto_print_state",
+            "value": "processing",
+            "configuration_model_id": "mobile_pickup"
+        },
+        {
+            "name": "concessions_display_name",
+            "value": "Mobile - Pickup",
+            "configuration_model_id": "mobile_pickup"
+        },
+        {
+            "name": "concessions_orders_usage_type",
+            "value": "pickup",
+            "configuration_model_id": "mobile_pickup"
+        },
+        {
+            "name": "concessions_menus_usage_type",
+            "value": "pickup",
+            "configuration_model_id": "mobile_pickup"
+        },
+        {
+            "name": "delivery_orders_usage_type",
+            "value": "delivery",
+            "configuration_model_id": "mobile_pickup"
+        },
+        {
+            "name": "delivery_menus_usage_type",
+            "value": "delivery",
+            "configuration_model_id": "mobile_pickup"
+        },
+        {
+            "name": "pickup_display_name",
+            "value": "Pick Up",
+            "configuration_model_id": "mobile_pickup"
+        },
+        {
+            "name": "pickup_orders_usage_type",
+            "value": "pickup",
+            "configuration_model_id": "mobile_pickup"
+        },
+        {
+            "name": "pickup_menus_usage_type",
+            "value": "pickup",
+            "configuration_model_id": "mobile_pickup"
+        },
+        {
+            "name": "quickpay_orders_usage_type",
+            "value": "pickup",
+            "configuration_model_id": "mobile_pickup"
+        },
+        {
+            "name": "quickpay_menus_usage_type",
+            "value": "pickup",
+            "configuration_model_id": "mobile_pickup"
+        },
+        {
+            "name": "kiosk_orders_usage_type",
+            "value": "pickup",
+            "configuration_model_id": "mobile_pickup"
+        },
+        {
+            "name": "kiosk_menus_usage_type",
+            "value": "pickup",
+            "configuration_model_id": "mobile_pickup"
+        },
+        {
+            "name": "pos_orders_usage_type",
+            "value": "pickup",
+            "configuration_model_id": "mobile_pickup"
+        },
+        {
+            "name": "pos_menus_usage_type",
+            "value": "pickup",
+            "configuration_model_id": "mobile_pickup"
+        },
+        {
+            "name": "selfcheckout_orders_usage_type",
+            "value": "pickup",
+            "configuration_model_id": "mobile_pickup"
+        },
+        {
+            "name": "selfcheckout_menus_usage_type",
+            "value": "pickup",
+            "configuration_model_id": "mobile_pickup"
+        },
+        {
+            "name": "merch_tax_rate",
+            "value": 0.0,
+            "configuration_model_id": "mobile_pickup"
+        },
+        {
+            "name": "food_tax_rate",
+            "value": 0.0,
+            "configuration_model_id": "mobile_pickup"
+        },
+        {
+            "name": "tax_by_item",
+            "value": true,
+            "configuration_model_id": "mobile_pickup"
+        },
+        {
+            "name": "tax_rate_on_items",
+            "value": true,
+            "configuration_model_id": "mobile_pickup"
+        },
+        {
+            "name": "concessions_queued_display_name",
+            "value": "You order has been placed!",
+            "configuration_model_id": "mobile_pickup"
+        },
+        {
+            "name": "concessions_queued_description",
+            "value": "Hi #{first_name}, your order has been placed. This screen will update when your order is ready for pickup from #{location_name}.",
+            "configuration_model_id": "mobile_pickup"
+        },
+        {
+            "name": "concessions_processing_display_name",
+            "value": "We are preparing your order!",
+            "configuration_model_id": "mobile_pickup"
+        },
+        {
+            "name": "concessions_processing_description",
+            "value": "Hi #{first_name}, we are currently working on your order. This screen will update when your order is ready.",
+            "configuration_model_id": "mobile_pickup"
+        },
+        {
+            "name": "concessions_bumped_display_name",
+            "value": "Ready for pickup!",
+            "configuration_model_id": "mobile_pickup"
+        },
+        {
+            "name": "concessions_bumped_description",
+            "value": "Hi #{first_name}, you order is ready at #{location_name}",
+            "configuration_model_id": "mobile_pickup"
+        },
+        {
+            "name": "concessions_completed_display_name",
+            "value": "Completed!",
+            "configuration_model_id": "mobile_pickup"
+        },
+        {
+            "name": "concessions_completed_description",
+            "value": "Hi #{first_name}, your order has been completed successfully.",
+            "configuration_model_id": "mobile_pickup"
+        },
+        {
+            "name": "concessions_refunded_display_name",
+            "value": "Your order has been refunded.",
+            "configuration_model_id": "mobile_pickup"
+        },
+        {
+            "name": "concessions_refunded_description",
+            "value": "Hi #{first_name}, your order has been successfully refunded.",
+            "configuration_model_id": "mobile_pickup"
+        },
+        {
+            "name": "concessions_partially_refunded_display_name",
+            "value": "Partially Refunded",
+            "configuration_model_id": "mobile_pickup"
+        },
+        {
+            "name": "concessions_partially_refunded_description",
+            "value": "Hi #{first_name}, some items within this order have been refunded.",
+            "configuration_model_id": "mobile_pickup"
+        },
+        {
+            "name": "concessions_authorization_failed_display_name",
+            "value": "Order Submission Failed",
+            "configuration_model_id": "mobile_pickup"
+        },
+        {
+            "name": "concessions_authorization_failed_description",
+            "value": "Hi #{first_name}, your order could not be completed. Please try submitting the order again.",
+            "configuration_model_id": "mobile_pickup"
+        },
+        {
+            "name": "concessions_settlement_failed_display_name",
+            "value": "We ran into an issue...",
+            "configuration_model_id": "mobile_pickup"
+        },
+        {
+            "name": "concessions_settlement_failed_description",
+            "value": "Hi #{first_name}, your order payment could not be settled. Please try submitting the order again.",
+            "configuration_model_id": "mobile_pickup"
+        },
+        {
+            "name": "concessions_cancelled_display_name",
+            "value": "Your order has been cancelled.",
+            "configuration_model_id": "mobile_pickup"
+        },
+        {
+            "name": "concessions_cancelled_description",
+            "value": "Hi #{first_name}, your order has been cancelled.",
+            "configuration_model_id": "mobile_pickup"
+        },
+        {
+            "name": "concessions_delivered_without_alcohol_display_name",
+            "value": "Ready for pickup!",
+            "configuration_model_id": "mobile_pickup"
+        },
+        {
+            "name": "concessions_delivered_without_alcohol_description",
+            "value": "Hi #{first_name}, you order is ready at #{location_name} However, we cancelled the alcoholic items. ",
+            "configuration_model_id": "mobile_pickup"
+        },
+        {
+            "name": "concessions_refund_failed_display_name",
+            "value": "Refund Attempted",
+            "configuration_model_id": "mobile_pickup"
+        },
+        {
+            "name": "concessions_refund_failed_description",
+            "value": "Hi #{first_name}, we tried to refund your order but there was a problem. We will resolve this shortly.",
+            "configuration_model_id": "mobile_pickup"
+        },
+        {
+            "name": "concessions_not_collected_display_name",
+            "value": "Sorry we missed you!",
+            "configuration_model_id": "mobile_pickup"
+        },
+        {
+            "name": "concessions_not_collected_description",
+            "value": "Hi #{first_name}. This order was never picked up from #{location_name}. If you have any concerns with your payment, please contact a customer service representative.",
+            "configuration_model_id": "mobile_pickup"
+        },
+        {
+            "name": "order_settlement_by_state",
+            "value": [
+                "completed",
+                "delivered_without_alcohol",
+                "not_collected"
+            ],
+            "configuration_model_id": "mobile_preorder_delivery"
+        },
+        {
+            "name": "use_menu_categories",
+            "value": false,
+            "configuration_model_id": "mobile_preorder_delivery"
+        },
+        {
+            "name": "use_item_categories",
+            "value": true,
+            "configuration_model_id": "mobile_preorder_delivery"
+        },
+        {
+            "name": "check_recent_order",
+            "value": false,
+            "configuration_model_id": "mobile_preorder_delivery"
+        },
+        {
+            "name": "enable_inventory_management",
+            "value": true,
+            "configuration_model_id": "mobile_preorder_delivery"
+        },
+        {
+            "name": "minimum_order_number",
+            "value": "50000",
+            "configuration_model_id": "mobile_preorder_delivery"
+        },
+        {
+            "name": "skip_pos_submission",
+            "value": true,
+            "configuration_model_id": "mobile_preorder_delivery"
+        },
+        {
+            "name": "skip_pos_submission_state",
+            "value": "completed",
+            "configuration_model_id": "mobile_preorder_delivery"
+        },
+        {
+            "name": "xpedite_auto_print_state",
+            "value": "processing",
+            "configuration_model_id": "mobile_preorder_delivery"
+        },
+        {
+            "name": "concessions_orders_usage_type",
+            "value": "pickup",
+            "configuration_model_id": "mobile_preorder_delivery"
+        },
+        {
+            "name": "concessions_menus_usage_type",
+            "value": "pickup",
+            "configuration_model_id": "mobile_preorder_delivery"
+        },
+        {
+            "name": "delivery_display_name",
+            "value": "Mobile - Pre-Order Delivery",
+            "configuration_model_id": "mobile_preorder_delivery"
+        },
+        {
+            "name": "delivery_orders_usage_type",
+            "value": "delivery",
+            "configuration_model_id": "mobile_preorder_delivery"
+        },
+        {
+            "name": "delivery_menus_usage_type",
+            "value": "delivery",
+            "configuration_model_id": "mobile_preorder_delivery"
+        },
+        {
+            "name": "pickup_display_name",
+            "value": "Pick Up",
+            "configuration_model_id": "mobile_preorder_delivery"
+        },
+        {
+            "name": "pickup_orders_usage_type",
+            "value": "pickup",
+            "configuration_model_id": "mobile_preorder_delivery"
+        },
+        {
+            "name": "pickup_menus_usage_type",
+            "value": "pickup",
+            "configuration_model_id": "mobile_preorder_delivery"
+        },
+        {
+            "name": "quickpay_orders_usage_type",
+            "value": "pickup",
+            "configuration_model_id": "mobile_preorder_delivery"
+        },
+        {
+            "name": "quickpay_menus_usage_type",
+            "value": "pickup",
+            "configuration_model_id": "mobile_preorder_delivery"
+        },
+        {
+            "name": "kiosk_orders_usage_type",
+            "value": "pickup",
+            "configuration_model_id": "mobile_preorder_delivery"
+        },
+        {
+            "name": "kiosk_menus_usage_type",
+            "value": "pickup",
+            "configuration_model_id": "mobile_preorder_delivery"
+        },
+        {
+            "name": "pos_orders_usage_type",
+            "value": "pickup",
+            "configuration_model_id": "mobile_preorder_delivery"
+        },
+        {
+            "name": "pos_menus_usage_type",
+            "value": "pickup",
+            "configuration_model_id": "mobile_preorder_delivery"
+        },
+        {
+            "name": "selfcheckout_orders_usage_type",
+            "value": "pickup",
+            "configuration_model_id": "mobile_preorder_delivery"
+        },
+        {
+            "name": "selfcheckout_menus_usage_type",
+            "value": "pickup",
+            "configuration_model_id": "mobile_preorder_delivery"
+        },
+        {
+            "name": "merch_tax_rate",
+            "value": 0.0,
+            "configuration_model_id": "mobile_preorder_delivery"
+        },
+        {
+            "name": "food_tax_rate",
+            "value": 0.0,
+            "configuration_model_id": "mobile_preorder_delivery"
+        },
+        {
+            "name": "tax_by_item",
+            "value": true,
+            "configuration_model_id": "mobile_preorder_delivery"
+        },
+        {
+            "name": "tax_rate_on_items",
+            "value": true,
+            "configuration_model_id": "mobile_preorder_delivery"
+        },
+        {
+            "name": "leading_order_number_text",
+            "value": "PO-",
+            "configuration_model_id": "mobile_preorder_delivery"
+        },
+        {
+            "name": "delivery_completed_display_name",
+            "value": "Pre-Order Submitted",
+            "configuration_model_id": "mobile_preorder_delivery"
+        },
+        {
+            "name": "delivery_completed_description",
+            "value": "Hi #{first_name}, your pre-order has been placed successfully! See you soon!",
+            "configuration_model_id": "mobile_preorder_delivery"
+        },
+        {
+            "name": "delivery_refunded_display_name",
+            "value": "Your order has been refunded.",
+            "configuration_model_id": "mobile_preorder_delivery"
+        },
+        {
+            "name": "delivery_refunded_description",
+            "value": "Hi #{first_name}, your order has been successfully refunded.",
+            "configuration_model_id": "mobile_preorder_delivery"
+        },
+        {
+            "name": "delivery_partially_refunded_display_name",
+            "value": "Partially Refunded",
+            "configuration_model_id": "mobile_preorder_delivery"
+        },
+        {
+            "name": "delivery_partially_refunded_description",
+            "value": "Hi #{first_name}, some items within this order have been refunded.",
+            "configuration_model_id": "mobile_preorder_delivery"
+        },
+        {
+            "name": "delivery_authorization_failed_display_name",
+            "value": "Order Submission Failed",
+            "configuration_model_id": "mobile_preorder_delivery"
+        },
+        {
+            "name": "delivery_authorization_failed_description",
+            "value": "Hi #{first_name}, your order could not be completed. Please try submitting the order again.",
+            "configuration_model_id": "mobile_preorder_delivery"
+        },
+        {
+            "name": "delivery_settlement_failed_display_name",
+            "value": "We ran into an issue...",
+            "configuration_model_id": "mobile_preorder_delivery"
+        },
+        {
+            "name": "delivery_settlement_failed_description",
+            "value": "Hi #{first_name}, your order payment could not be settled. Please try submitting the order again.",
+            "configuration_model_id": "mobile_preorder_delivery"
+        },
+        {
+            "name": "delivery_cancelled_display_name",
+            "value": "Your order has been cancelled.",
+            "configuration_model_id": "mobile_preorder_delivery"
+        },
+        {
+            "name": "delivery_cancelled_description",
+            "value": "Hi #{first_name}, your order has been cancelled.",
+            "configuration_model_id": "mobile_preorder_delivery"
+        },
+        {
+            "name": "delivery_refund_failed_display_name",
+            "value": "Refund Attempted",
+            "configuration_model_id": "mobile_preorder_delivery"
+        },
+        {
+            "name": "delivery_refund_failed_description",
+            "value": "Hi #{first_name}, we tried to refund your order but there was a problem. We will resolve this shortly.",
+            "configuration_model_id": "mobile_preorder_delivery"
+        },
+        {
+            "name": "order_settlement_by_state",
+            "value": [
+                "completed",
+                "delivered_without_alcohol",
+                "not_collected"
+            ],
+            "configuration_model_id": "mobile_preorder_pickup"
+        },
+        {
+            "name": "use_menu_categories",
+            "value": false,
+            "configuration_model_id": "mobile_preorder_pickup"
+        },
+        {
+            "name": "use_item_categories",
+            "value": true,
+            "configuration_model_id": "mobile_preorder_pickup"
+        },
+        {
+            "name": "check_recent_order",
+            "value": false,
+            "configuration_model_id": "mobile_preorder_pickup"
+        },
+        {
+            "name": "enable_inventory_management",
+            "value": true,
+            "configuration_model_id": "mobile_preorder_pickup"
+        },
+        {
+            "name": "minimum_order_number",
+            "value": "60000",
+            "configuration_model_id": "mobile_preorder_pickup"
+        },
+        {
+            "name": "skip_pos_submission",
+            "value": true,
+            "configuration_model_id": "mobile_preorder_pickup"
+        },
+        {
+            "name": "skip_pos_submission_state",
+            "value": "completed",
+            "configuration_model_id": "mobile_preorder_pickup"
+        },
+        {
+            "name": "xpedite_auto_print_state",
+            "value": "processing",
+            "configuration_model_id": "mobile_preorder_pickup"
+        },
+        {
+            "name": "concessions_display_name",
+            "value": "Mobile - Pre-Order Pickup",
+            "configuration_model_id": "mobile_preorder_pickup"
+        },
+        {
+            "name": "concessions_orders_usage_type",
+            "value": "pickup",
+            "configuration_model_id": "mobile_preorder_pickup"
+        },
+        {
+            "name": "concessions_menus_usage_type",
+            "value": "pickup",
+            "configuration_model_id": "mobile_preorder_pickup"
+        },
+        {
+            "name": "delivery_orders_usage_type",
+            "value": "delivery",
+            "configuration_model_id": "mobile_preorder_pickup"
+        },
+        {
+            "name": "delivery_menus_usage_type",
+            "value": "delivery",
+            "configuration_model_id": "mobile_preorder_pickup"
+        },
+        {
+            "name": "pickup_display_name",
+            "value": "Pick Up",
+            "configuration_model_id": "mobile_preorder_pickup"
+        },
+        {
+            "name": "pickup_orders_usage_type",
+            "value": "pickup",
+            "configuration_model_id": "mobile_preorder_pickup"
+        },
+        {
+            "name": "pickup_menus_usage_type",
+            "value": "pickup",
+            "configuration_model_id": "mobile_preorder_pickup"
+        },
+        {
+            "name": "quickpay_orders_usage_type",
+            "value": "pickup",
+            "configuration_model_id": "mobile_preorder_pickup"
+        },
+        {
+            "name": "quickpay_menus_usage_type",
+            "value": "pickup",
+            "configuration_model_id": "mobile_preorder_pickup"
+        },
+        {
+            "name": "kiosk_orders_usage_type",
+            "value": "pickup",
+            "configuration_model_id": "mobile_preorder_pickup"
+        },
+        {
+            "name": "kiosk_menus_usage_type",
+            "value": "pickup",
+            "configuration_model_id": "mobile_preorder_pickup"
+        },
+        {
+            "name": "pos_orders_usage_type",
+            "value": "pickup",
+            "configuration_model_id": "mobile_preorder_pickup"
+        },
+        {
+            "name": "pos_menus_usage_type",
+            "value": "pickup",
+            "configuration_model_id": "mobile_preorder_pickup"
+        },
+        {
+            "name": "selfcheckout_orders_usage_type",
+            "value": "pickup",
+            "configuration_model_id": "mobile_preorder_pickup"
+        },
+        {
+            "name": "selfcheckout_menus_usage_type",
+            "value": "pickup",
+            "configuration_model_id": "mobile_preorder_pickup"
+        },
+        {
+            "name": "merch_tax_rate",
+            "value": 0.0,
+            "configuration_model_id": "mobile_preorder_pickup"
+        },
+        {
+            "name": "food_tax_rate",
+            "value": 0.0,
+            "configuration_model_id": "mobile_preorder_pickup"
+        },
+        {
+            "name": "tax_by_item",
+            "value": true,
+            "configuration_model_id": "mobile_preorder_pickup"
+        },
+        {
+            "name": "tax_rate_on_items",
+            "value": true,
+            "configuration_model_id": "mobile_preorder_pickup"
+        },
+        {
+            "name": "leading_order_number_text",
+            "value": "PO-",
+            "configuration_model_id": "mobile_preorder_pickup"
+        },
+        {
+            "name": "concessions_completed_display_name",
+            "value": "Pre-Order Submitted",
+            "configuration_model_id": "mobile_preorder_pickup"
+        },
+        {
+            "name": "concessions_completed_description",
+            "value": "Hi #{first_name}, your pre-order has been placed successfully! See you soon!",
+            "configuration_model_id": "mobile_preorder_pickup"
+        },
+        {
+            "name": "concessions_refunded_display_name",
+            "value": "Your order has been refunded.",
+            "configuration_model_id": "mobile_preorder_pickup"
+        },
+        {
+            "name": "concessions_refunded_description",
+            "value": "Hi #{first_name}, your order has been successfully refunded.",
+            "configuration_model_id": "mobile_preorder_pickup"
+        },
+        {
+            "name": "concessions_partially_refunded_display_name",
+            "value": "Partially Refunded",
+            "configuration_model_id": "mobile_preorder_pickup"
+        },
+        {
+            "name": "concessions_partially_refunded_description",
+            "value": "Hi #{first_name}, some items within this order have been refunded.",
+            "configuration_model_id": "mobile_preorder_pickup"
+        },
+        {
+            "name": "concessions_authorization_failed_display_name",
+            "value": "Order Submission Failed",
+            "configuration_model_id": "mobile_preorder_pickup"
+        },
+        {
+            "name": "concessions_authorization_failed_description",
+            "value": "Hi #{first_name}, your order could not be completed. Please try submitting the order again.",
+            "configuration_model_id": "mobile_preorder_pickup"
+        },
+        {
+            "name": "concessions_settlement_failed_display_name",
+            "value": "We ran into an issue...",
+            "configuration_model_id": "mobile_preorder_pickup"
+        },
+        {
+            "name": "concessions_settlement_failed_description",
+            "value": "Hi #{first_name}, your order payment could not be settled. Please try submitting the order again.",
+            "configuration_model_id": "mobile_preorder_pickup"
+        },
+        {
+            "name": "concessions_cancelled_display_name",
+            "value": "Your order has been cancelled.",
+            "configuration_model_id": "mobile_preorder_pickup"
+        },
+        {
+            "name": "concessions_cancelled_description",
+            "value": "Hi #{first_name}, your order has been cancelled.",
+            "configuration_model_id": "mobile_preorder_pickup"
+        },
+        {
+            "name": "concessions_refund_failed_display_name",
+            "value": "Refund Attempted",
+            "configuration_model_id": "mobile_preorder_pickup"
+        },
+        {
+            "name": "concessions_refund_failed_description",
+            "value": "Hi #{first_name}, we tried to refund your order but there was a problem. We will resolve this shortly.",
+            "configuration_model_id": "mobile_preorder_pickup"
+        },
+        {
+            "name": "order_settlement_by_state",
+            "value": [
+                "completed",
+                "delivered_without_alcohol",
+                "not_collected"
+            ],
+            "configuration_model_id": "mobile_quickpay"
+        },
+        {
+            "name": "use_menu_categories",
+            "value": false,
+            "configuration_model_id": "mobile_quickpay"
+        },
+        {
+            "name": "use_item_categories",
+            "value": true,
+            "configuration_model_id": "mobile_quickpay"
+        },
+        {
+            "name": "check_recent_order",
+            "value": false,
+            "configuration_model_id": "mobile_quickpay"
+        },
+        {
+            "name": "enable_inventory_management",
+            "value": true,
+            "configuration_model_id": "mobile_quickpay"
+        },
+        {
+            "name": "minimum_order_number",
+            "value": "40000",
+            "configuration_model_id": "mobile_quickpay"
+        },
+        {
+            "name": "skip_pos_submission",
+            "value": true,
+            "configuration_model_id": "mobile_quickpay"
+        },
+        {
+            "name": "skip_pos_submission_state",
+            "value": "completed",
+            "configuration_model_id": "mobile_quickpay"
+        },
+        {
+            "name": "xpedite_auto_print_state",
+            "value": "processing",
+            "configuration_model_id": "mobile_quickpay"
+        },
+        {
+            "name": "concessions_orders_usage_type",
+            "value": "pickup",
+            "configuration_model_id": "mobile_quickpay"
+        },
+        {
+            "name": "concessions_menus_usage_type",
+            "value": "pickup",
+            "configuration_model_id": "mobile_quickpay"
+        },
+        {
+            "name": "delivery_orders_usage_type",
+            "value": "delivery",
+            "configuration_model_id": "mobile_quickpay"
+        },
+        {
+            "name": "delivery_menus_usage_type",
+            "value": "delivery",
+            "configuration_model_id": "mobile_quickpay"
+        },
+        {
+            "name": "pickup_display_name",
+            "value": "Pick Up",
+            "configuration_model_id": "mobile_quickpay"
+        },
+        {
+            "name": "pickup_orders_usage_type",
+            "value": "pickup",
+            "configuration_model_id": "mobile_quickpay"
+        },
+        {
+            "name": "pickup_menus_usage_type",
+            "value": "pickup",
+            "configuration_model_id": "mobile_quickpay"
+        },
+        {
+            "name": "quickpay_display_name",
+            "value": "Mobile - Quickpay",
+            "configuration_model_id": "mobile_quickpay"
+        },
+        {
+            "name": "quickpay_orders_usage_type",
+            "value": "pickup",
+            "configuration_model_id": "mobile_quickpay"
+        },
+        {
+            "name": "quickpay_menus_usage_type",
+            "value": "pickup",
+            "configuration_model_id": "mobile_quickpay"
+        },
+        {
+            "name": "kiosk_orders_usage_type",
+            "value": "pickup",
+            "configuration_model_id": "mobile_quickpay"
+        },
+        {
+            "name": "kiosk_menus_usage_type",
+            "value": "pickup",
+            "configuration_model_id": "mobile_quickpay"
+        },
+        {
+            "name": "pos_orders_usage_type",
+            "value": "pickup",
+            "configuration_model_id": "mobile_quickpay"
+        },
+        {
+            "name": "pos_menus_usage_type",
+            "value": "pickup",
+            "configuration_model_id": "mobile_quickpay"
+        },
+        {
+            "name": "selfcheckout_orders_usage_type",
+            "value": "pickup",
+            "configuration_model_id": "mobile_quickpay"
+        },
+        {
+            "name": "selfcheckout_menus_usage_type",
+            "value": "pickup",
+            "configuration_model_id": "mobile_quickpay"
+        },
+        {
+            "name": "merch_tax_rate",
+            "value": 0.0,
+            "configuration_model_id": "mobile_quickpay"
+        },
+        {
+            "name": "food_tax_rate",
+            "value": 0.0,
+            "configuration_model_id": "mobile_quickpay"
+        },
+        {
+            "name": "tax_by_item",
+            "value": true,
+            "configuration_model_id": "mobile_quickpay"
+        },
+        {
+            "name": "tax_rate_on_items",
+            "value": true,
+            "configuration_model_id": "mobile_quickpay"
+        },
+        {
+            "name": "quickpay_completed_display_name",
+            "value": "Completed!",
+            "configuration_model_id": "mobile_quickpay"
+        },
+        {
+            "name": "quickpay_completed_description",
+            "value": "Hi #{first_name}, your order has been completed successfully.",
+            "configuration_model_id": "mobile_quickpay"
+        },
+        {
+            "name": "quickpay_refunded_display_name",
+            "value": "Your order has been refunded.",
+            "configuration_model_id": "mobile_quickpay"
+        },
+        {
+            "name": "quickpay_refunded_description",
+            "value": "Hi #{first_name}, your order has been successfully refunded.",
+            "configuration_model_id": "mobile_quickpay"
+        },
+        {
+            "name": "quickpay_partially_refunded_display_name",
+            "value": "Partially Refunded",
+            "configuration_model_id": "mobile_quickpay"
+        },
+        {
+            "name": "quickpay_partially_refunded_description",
+            "value": "Hi #{first_name}, some items within this order have been refunded.",
+            "configuration_model_id": "mobile_quickpay"
+        },
+        {
+            "name": "quickpay_authorization_failed_display_name",
+            "value": "Order Submission Failed",
+            "configuration_model_id": "mobile_quickpay"
+        },
+        {
+            "name": "quickpay_authorization_failed_description",
+            "value": "Hi #{first_name}, your order could not be completed. Please try submitting the order again.",
+            "configuration_model_id": "mobile_quickpay"
+        },
+        {
+            "name": "quickpay_settlement_failed_display_name",
+            "value": "We ran into an issue...",
+            "configuration_model_id": "mobile_quickpay"
+        },
+        {
+            "name": "quickpay_settlement_failed_description",
+            "value": "Hi #{first_name}, your order payment could not be settled. Please try submitting the order again.",
+            "configuration_model_id": "mobile_quickpay"
+        },
+        {
+            "name": "quickpay_cancelled_display_name",
+            "value": "Your order has been cancelled.",
+            "configuration_model_id": "mobile_quickpay"
+        },
+        {
+            "name": "quickpay_cancelled_description",
+            "value": "Hi #{first_name}, your order has been cancelled.",
+            "configuration_model_id": "mobile_quickpay"
+        },
+        {
+            "name": "quickpay_refund_failed_display_name",
+            "value": "Refund Attempted",
+            "configuration_model_id": "mobile_quickpay"
+        },
+        {
+            "name": "quickpay_refund_failed_description",
+            "value": "Hi #{first_name}, we tried to refund your order but there was a problem. We will resolve this shortly.",
+            "configuration_model_id": "mobile_quickpay"
+        },
+        {
+            "name": "order_settlement_by_state",
+            "value": [
+                "completed",
+                "delivered_without_alcohol",
+                "not_collected"
+            ],
+            "configuration_model_id": "mobile_selfcheckout"
+        },
+        {
+            "name": "use_menu_categories",
+            "value": false,
+            "configuration_model_id": "mobile_selfcheckout"
+        },
+        {
+            "name": "use_item_categories",
+            "value": true,
+            "configuration_model_id": "mobile_selfcheckout"
+        },
+        {
+            "name": "check_recent_order",
+            "value": false,
+            "configuration_model_id": "mobile_selfcheckout"
+        },
+        {
+            "name": "enable_inventory_management",
+            "value": true,
+            "configuration_model_id": "mobile_selfcheckout"
+        },
+        {
+            "name": "minimum_order_number",
+            "value": "30000",
+            "configuration_model_id": "mobile_selfcheckout"
+        },
+        {
+            "name": "skip_pos_submission",
+            "value": true,
+            "configuration_model_id": "mobile_selfcheckout"
+        },
+        {
+            "name": "skip_pos_submission_state",
+            "value": "completed",
+            "configuration_model_id": "mobile_selfcheckout"
+        },
+        {
+            "name": "xpedite_auto_print_state",
+            "value": "processing",
+            "configuration_model_id": "mobile_selfcheckout"
+        },
+        {
+            "name": "concessions_orders_usage_type",
+            "value": "pickup",
+            "configuration_model_id": "mobile_selfcheckout"
+        },
+        {
+            "name": "concessions_menus_usage_type",
+            "value": "pickup",
+            "configuration_model_id": "mobile_selfcheckout"
+        },
+        {
+            "name": "delivery_orders_usage_type",
+            "value": "delivery",
+            "configuration_model_id": "mobile_selfcheckout"
+        },
+        {
+            "name": "delivery_menus_usage_type",
+            "value": "delivery",
+            "configuration_model_id": "mobile_selfcheckout"
+        },
+        {
+            "name": "pickup_display_name",
+            "value": "Pick Up",
+            "configuration_model_id": "mobile_selfcheckout"
+        },
+        {
+            "name": "pickup_orders_usage_type",
+            "value": "pickup",
+            "configuration_model_id": "mobile_selfcheckout"
+        },
+        {
+            "name": "pickup_menus_usage_type",
+            "value": "pickup",
+            "configuration_model_id": "mobile_selfcheckout"
+        },
+        {
+            "name": "quickpay_orders_usage_type",
+            "value": "pickup",
+            "configuration_model_id": "mobile_selfcheckout"
+        },
+        {
+            "name": "quickpay_menus_usage_type",
+            "value": "pickup",
+            "configuration_model_id": "mobile_selfcheckout"
+        },
+        {
+            "name": "kiosk_orders_usage_type",
+            "value": "pickup",
+            "configuration_model_id": "mobile_selfcheckout"
+        },
+        {
+            "name": "kiosk_menus_usage_type",
+            "value": "pickup",
+            "configuration_model_id": "mobile_selfcheckout"
+        },
+        {
+            "name": "pos_orders_usage_type",
+            "value": "pickup",
+            "configuration_model_id": "mobile_selfcheckout"
+        },
+        {
+            "name": "pos_menus_usage_type",
+            "value": "pickup",
+            "configuration_model_id": "mobile_selfcheckout"
+        },
+        {
+            "name": "selfcheckout_display_name",
+            "value": "Mobile - Self-Checkout",
+            "configuration_model_id": "mobile_selfcheckout"
+        },
+        {
+            "name": "selfcheckout_orders_usage_type",
+            "value": "pickup",
+            "configuration_model_id": "mobile_selfcheckout"
+        },
+        {
+            "name": "selfcheckout_menus_usage_type",
+            "value": "pickup",
+            "configuration_model_id": "mobile_selfcheckout"
+        },
+        {
+            "name": "merch_tax_rate",
+            "value": 0.0,
+            "configuration_model_id": "mobile_selfcheckout"
+        },
+        {
+            "name": "food_tax_rate",
+            "value": 0.0,
+            "configuration_model_id": "mobile_selfcheckout"
+        },
+        {
+            "name": "tax_by_item",
+            "value": true,
+            "configuration_model_id": "mobile_selfcheckout"
+        },
+        {
+            "name": "tax_rate_on_items",
+            "value": true,
+            "configuration_model_id": "mobile_selfcheckout"
+        },
+        {
+            "name": "selfcheckout_completed_display_name",
+            "value": "Completed!",
+            "configuration_model_id": "mobile_selfcheckout"
+        },
+        {
+            "name": "selfcheckout_completed_description",
+            "value": "Hi #{first_name}, your order has been completed successfully.",
+            "configuration_model_id": "mobile_selfcheckout"
+        },
+        {
+            "name": "selfcheckout_refunded_display_name",
+            "value": "Your order has been refunded.",
+            "configuration_model_id": "mobile_selfcheckout"
+        },
+        {
+            "name": "selfcheckout_refunded_description",
+            "value": "Hi #{first_name}, your order has been successfully refunded.",
+            "configuration_model_id": "mobile_selfcheckout"
+        },
+        {
+            "name": "selfcheckout_partially_refunded_display_name",
+            "value": "Partially Refunded",
+            "configuration_model_id": "mobile_selfcheckout"
+        },
+        {
+            "name": "selfcheckout_partially_refunded_description",
+            "value": "Hi #{first_name}, some items within this order have been refunded.",
+            "configuration_model_id": "mobile_selfcheckout"
+        },
+        {
+            "name": "selfcheckout_authorization_failed_display_name",
+            "value": "Order Submission Failed",
+            "configuration_model_id": "mobile_selfcheckout"
+        },
+        {
+            "name": "selfcheckout_authorization_failed_description",
+            "value": "Hi #{first_name}, your order could not be completed. Please try submitting the order again.",
+            "configuration_model_id": "mobile_selfcheckout"
+        },
+        {
+            "name": "selfcheckout_settlement_failed_display_name",
+            "value": "We ran into an issue...",
+            "configuration_model_id": "mobile_selfcheckout"
+        },
+        {
+            "name": "selfcheckout_settlement_failed_description",
+            "value": "Hi #{first_name}, your order payment could not be settled. Please try submitting the order again.",
+            "configuration_model_id": "mobile_selfcheckout"
+        },
+        {
+            "name": "selfcheckout_cancelled_display_name",
+            "value": "Your order has been cancelled.",
+            "configuration_model_id": "mobile_selfcheckout"
+        },
+        {
+            "name": "selfcheckout_cancelled_description",
+            "value": "Hi #{first_name}, your order has been cancelled.",
+            "configuration_model_id": "mobile_selfcheckout"
+        },
+        {
+            "name": "selfcheckout_refund_failed_display_name",
+            "value": "Refund Attempted",
+            "configuration_model_id": "mobile_selfcheckout"
+        },
+        {
+            "name": "selfcheckout_refund_failed_description",
+            "value": "Hi #{first_name}, we tried to refund your order but there was a problem. We will resolve this shortly.",
+            "configuration_model_id": "mobile_selfcheckout"
+        },
+        {
+            "name": "order_settlement_by_state",
+            "value": [
+                "completed",
+                "delivered_without_alcohol",
+                "not_collected"
+            ],
+            "configuration_model_id": "pos_fs_wait_staff"
+        },
+        {
+            "name": "use_menu_categories",
+            "value": false,
+            "configuration_model_id": "pos_fs_wait_staff"
+        },
+        {
+            "name": "use_item_categories",
+            "value": true,
+            "configuration_model_id": "pos_fs_wait_staff"
+        },
+        {
+            "name": "check_recent_order",
+            "value": false,
+            "configuration_model_id": "pos_fs_wait_staff"
+        },
+        {
+            "name": "enable_inventory_management",
+            "value": true,
+            "configuration_model_id": "pos_fs_wait_staff"
+        },
+        {
+            "name": "minimum_order_number",
+            "value": "120000",
+            "configuration_model_id": "pos_fs_wait_staff"
+        },
+        {
+            "name": "skip_pos_submission",
+            "value": true,
+            "configuration_model_id": "pos_fs_wait_staff"
+        },
+        {
+            "name": "skip_pos_submission_state",
+            "value": "completed",
+            "configuration_model_id": "pos_fs_wait_staff"
+        },
+        {
+            "name": "xpedite_auto_print_state",
+            "value": "processing",
+            "configuration_model_id": "pos_fs_wait_staff"
+        },
+        {
+            "name": "concessions_orders_usage_type",
+            "value": "pickup",
+            "configuration_model_id": "pos_fs_wait_staff"
+        },
+        {
+            "name": "concessions_menus_usage_type",
+            "value": "pickup",
+            "configuration_model_id": "pos_fs_wait_staff"
+        },
+        {
+            "name": "delivery_orders_usage_type",
+            "value": "delivery",
+            "configuration_model_id": "pos_fs_wait_staff"
+        },
+        {
+            "name": "delivery_menus_usage_type",
+            "value": "delivery",
+            "configuration_model_id": "pos_fs_wait_staff"
+        },
+        {
+            "name": "pickup_display_name",
+            "value": "Pick Up",
+            "configuration_model_id": "pos_fs_wait_staff"
+        },
+        {
+            "name": "pickup_orders_usage_type",
+            "value": "pickup",
+            "configuration_model_id": "pos_fs_wait_staff"
+        },
+        {
+            "name": "pickup_menus_usage_type",
+            "value": "pickup",
+            "configuration_model_id": "pos_fs_wait_staff"
+        },
+        {
+            "name": "quickpay_orders_usage_type",
+            "value": "pickup",
+            "configuration_model_id": "pos_fs_wait_staff"
+        },
+        {
+            "name": "quickpay_menus_usage_type",
+            "value": "pickup",
+            "configuration_model_id": "pos_fs_wait_staff"
+        },
+        {
+            "name": "kiosk_orders_usage_type",
+            "value": "pickup",
+            "configuration_model_id": "pos_fs_wait_staff"
+        },
+        {
+            "name": "kiosk_menus_usage_type",
+            "value": "pickup",
+            "configuration_model_id": "pos_fs_wait_staff"
+        },
+        {
+            "name": "pos_display_name",
+            "value": "POS - Wait Staff POS",
+            "configuration_model_id": "pos_fs_wait_staff"
+        },
+        {
+            "name": "pos_orders_usage_type",
+            "value": "pickup",
+            "configuration_model_id": "pos_fs_wait_staff"
+        },
+        {
+            "name": "pos_menus_usage_type",
+            "value": "pickup",
+            "configuration_model_id": "pos_fs_wait_staff"
+        },
+        {
+            "name": "selfcheckout_orders_usage_type",
+            "value": "pickup",
+            "configuration_model_id": "pos_fs_wait_staff"
+        },
+        {
+            "name": "selfcheckout_menus_usage_type",
+            "value": "pickup",
+            "configuration_model_id": "pos_fs_wait_staff"
+        },
+        {
+            "name": "merch_tax_rate",
+            "value": 0.0,
+            "configuration_model_id": "pos_fs_wait_staff"
+        },
+        {
+            "name": "food_tax_rate",
+            "value": 0.0,
+            "configuration_model_id": "pos_fs_wait_staff"
+        },
+        {
+            "name": "tax_by_item",
+            "value": true,
+            "configuration_model_id": "pos_fs_wait_staff"
+        },
+        {
+            "name": "tax_rate_on_items",
+            "value": true,
+            "configuration_model_id": "pos_fs_wait_staff"
+        },
+        {
+            "name": "pos_processing_display_name",
+            "value": "You order has been placed!",
+            "configuration_model_id": "pos_fs_wait_staff"
+        },
+        {
+            "name": "pos_processing_description",
+            "value": "Hi #{first_name}, thank you for your order. We will update this page when your order is ready for pickup from #{location_name}.",
+            "configuration_model_id": "pos_fs_wait_staff"
+        },
+        {
+            "name": "pos_completed_display_name",
+            "value": "Completed!",
+            "configuration_model_id": "pos_fs_wait_staff"
+        },
+        {
+            "name": "pos_completed_description",
+            "value": "Hi #{first_name}, your order has been completed successfully.",
+            "configuration_model_id": "pos_fs_wait_staff"
+        },
+        {
+            "name": "pos_refunded_display_name",
+            "value": "Your order has been refunded.",
+            "configuration_model_id": "pos_fs_wait_staff"
+        },
+        {
+            "name": "pos_refunded_description",
+            "value": "Hi #{first_name}, your order has been successfully refunded.",
+            "configuration_model_id": "pos_fs_wait_staff"
+        },
+        {
+            "name": "pos_partially_refunded_display_name",
+            "value": "Partially Refunded",
+            "configuration_model_id": "pos_fs_wait_staff"
+        },
+        {
+            "name": "pos_partially_refunded_description",
+            "value": "Hi #{first_name}, some items within this order have been refunded.",
+            "configuration_model_id": "pos_fs_wait_staff"
+        },
+        {
+            "name": "pos_cancelled_display_name",
+            "value": "Your order has been cancelled.",
+            "configuration_model_id": "pos_fs_wait_staff"
+        },
+        {
+            "name": "pos_cancelled_description",
+            "value": "Hi #{first_name}, your order has been cancelled.",
+            "configuration_model_id": "pos_fs_wait_staff"
+        },
+        {
+            "name": "pos_refund_failed_display_name",
+            "value": "Refund Attempted",
+            "configuration_model_id": "pos_fs_wait_staff"
+        },
+        {
+            "name": "pos_refund_failed_description",
+            "value": "Hi #{first_name}, we tried to refund your order but there was a problem. We will resolve this shortly.",
+            "configuration_model_id": "pos_fs_wait_staff"
+        },
+        {
+            "name": "pos_completion_pending_display_name",
+            "value": "Completed!",
+            "configuration_model_id": "pos_fs_wait_staff"
+        },
+        {
+            "name": "pos_completion_pending_description",
+            "value": "Hi #{first_name}, your order has been completed successfully. Your payment will be processed shortly.",
+            "configuration_model_id": "pos_fs_wait_staff"
+        },
+        {
+            "name": "pos_tabbed_display_name",
+            "value": "We are preparing your order!",
+            "configuration_model_id": "pos_fs_wait_staff"
+        },
+        {
+            "name": "pos_tabbed_description",
+            "value": "Hi #{first_name}, we are currently working on your order. We will update this page when your order is ready.",
+            "configuration_model_id": "pos_fs_wait_staff"
+        },
+        {
+            "name": "order_settlement_by_state",
+            "value": [
+                "completed",
+                "delivered_without_alcohol",
+                "not_collected"
+            ],
+            "configuration_model_id": "pos_qs_belly_up"
+        },
+        {
+            "name": "use_menu_categories",
+            "value": false,
+            "configuration_model_id": "pos_qs_belly_up"
+        },
+        {
+            "name": "use_item_categories",
+            "value": true,
+            "configuration_model_id": "pos_qs_belly_up"
+        },
+        {
+            "name": "check_recent_order",
+            "value": false,
+            "configuration_model_id": "pos_qs_belly_up"
+        },
+        {
+            "name": "enable_inventory_management",
+            "value": true,
+            "configuration_model_id": "pos_qs_belly_up"
+        },
+        {
+            "name": "minimum_order_number",
+            "value": "100000",
+            "configuration_model_id": "pos_qs_belly_up"
+        },
+        {
+            "name": "skip_pos_submission",
+            "value": true,
+            "configuration_model_id": "pos_qs_belly_up"
+        },
+        {
+            "name": "skip_pos_submission_state",
+            "value": "completed",
+            "configuration_model_id": "pos_qs_belly_up"
+        },
+        {
+            "name": "xpedite_auto_print_state",
+            "value": "processing",
+            "configuration_model_id": "pos_qs_belly_up"
+        },
+        {
+            "name": "concessions_orders_usage_type",
+            "value": "pickup",
+            "configuration_model_id": "pos_qs_belly_up"
+        },
+        {
+            "name": "concessions_menus_usage_type",
+            "value": "pickup",
+            "configuration_model_id": "pos_qs_belly_up"
+        },
+        {
+            "name": "delivery_orders_usage_type",
+            "value": "delivery",
+            "configuration_model_id": "pos_qs_belly_up"
+        },
+        {
+            "name": "delivery_menus_usage_type",
+            "value": "delivery",
+            "configuration_model_id": "pos_qs_belly_up"
+        },
+        {
+            "name": "pickup_display_name",
+            "value": "Pick Up",
+            "configuration_model_id": "pos_qs_belly_up"
+        },
+        {
+            "name": "pickup_orders_usage_type",
+            "value": "pickup",
+            "configuration_model_id": "pos_qs_belly_up"
+        },
+        {
+            "name": "pickup_menus_usage_type",
+            "value": "pickup",
+            "configuration_model_id": "pos_qs_belly_up"
+        },
+        {
+            "name": "quickpay_orders_usage_type",
+            "value": "pickup",
+            "configuration_model_id": "pos_qs_belly_up"
+        },
+        {
+            "name": "quickpay_menus_usage_type",
+            "value": "pickup",
+            "configuration_model_id": "pos_qs_belly_up"
+        },
+        {
+            "name": "kiosk_orders_usage_type",
+            "value": "pickup",
+            "configuration_model_id": "pos_qs_belly_up"
+        },
+        {
+            "name": "kiosk_menus_usage_type",
+            "value": "pickup",
+            "configuration_model_id": "pos_qs_belly_up"
+        },
+        {
+            "name": "pos_display_name",
+            "value": "POS - Belly Up",
+            "configuration_model_id": "pos_qs_belly_up"
+        },
+        {
+            "name": "pos_orders_usage_type",
+            "value": "pickup",
+            "configuration_model_id": "pos_qs_belly_up"
+        },
+        {
+            "name": "pos_menus_usage_type",
+            "value": "pickup",
+            "configuration_model_id": "pos_qs_belly_up"
+        },
+        {
+            "name": "selfcheckout_orders_usage_type",
+            "value": "pickup",
+            "configuration_model_id": "pos_qs_belly_up"
+        },
+        {
+            "name": "selfcheckout_menus_usage_type",
+            "value": "pickup",
+            "configuration_model_id": "pos_qs_belly_up"
+        },
+        {
+            "name": "merch_tax_rate",
+            "value": 0.0,
+            "configuration_model_id": "pos_qs_belly_up"
+        },
+        {
+            "name": "food_tax_rate",
+            "value": 0.0,
+            "configuration_model_id": "pos_qs_belly_up"
+        },
+        {
+            "name": "tax_by_item",
+            "value": true,
+            "configuration_model_id": "pos_qs_belly_up"
+        },
+        {
+            "name": "tax_rate_on_items",
+            "value": true,
+            "configuration_model_id": "pos_qs_belly_up"
+        },
+        {
+            "name": "pos_processing_display_name",
+            "value": "You order has been placed!",
+            "configuration_model_id": "pos_qs_belly_up"
+        },
+        {
+            "name": "pos_processing_description",
+            "value": "Hi #{first_name}, thank you for your order. We will update this page when your order is ready for pickup from #{location_name}.",
+            "configuration_model_id": "pos_qs_belly_up"
+        },
+        {
+            "name": "pos_completed_display_name",
+            "value": "Completed!",
+            "configuration_model_id": "pos_qs_belly_up"
+        },
+        {
+            "name": "pos_completed_description",
+            "value": "Hi #{first_name}, your order has been completed successfully.",
+            "configuration_model_id": "pos_qs_belly_up"
+        },
+        {
+            "name": "pos_refunded_display_name",
+            "value": "Your order has been refunded.",
+            "configuration_model_id": "pos_qs_belly_up"
+        },
+        {
+            "name": "pos_refunded_description",
+            "value": "Hi #{first_name}, your order has been successfully refunded.",
+            "configuration_model_id": "pos_qs_belly_up"
+        },
+        {
+            "name": "pos_partially_refunded_display_name",
+            "value": "Partially Refunded",
+            "configuration_model_id": "pos_qs_belly_up"
+        },
+        {
+            "name": "pos_partially_refunded_description",
+            "value": "Hi #{first_name}, some items within this order have been refunded.",
+            "configuration_model_id": "pos_qs_belly_up"
+        },
+        {
+            "name": "pos_cancelled_display_name",
+            "value": "Your order has been cancelled.",
+            "configuration_model_id": "pos_qs_belly_up"
+        },
+        {
+            "name": "pos_cancelled_description",
+            "value": "Hi #{first_name}, your order has been cancelled.",
+            "configuration_model_id": "pos_qs_belly_up"
+        },
+        {
+            "name": "pos_refund_failed_display_name",
+            "value": "Refund Attempted",
+            "configuration_model_id": "pos_qs_belly_up"
+        },
+        {
+            "name": "pos_refund_failed_description",
+            "value": "Hi #{first_name}, we tried to refund your order but there was a problem. We will resolve this shortly.",
+            "configuration_model_id": "pos_qs_belly_up"
+        },
+        {
+            "name": "order_settlement_by_state",
+            "value": [
+                "completed",
+                "delivered_without_alcohol",
+                "not_collected"
+            ],
+            "configuration_model_id": "pos_qs_order_pay_fulfill"
+        },
+        {
+            "name": "use_menu_categories",
+            "value": false,
+            "configuration_model_id": "pos_qs_order_pay_fulfill"
+        },
+        {
+            "name": "use_item_categories",
+            "value": true,
+            "configuration_model_id": "pos_qs_order_pay_fulfill"
+        },
+        {
+            "name": "check_recent_order",
+            "value": false,
+            "configuration_model_id": "pos_qs_order_pay_fulfill"
+        },
+        {
+            "name": "enable_inventory_management",
+            "value": true,
+            "configuration_model_id": "pos_qs_order_pay_fulfill"
+        },
+        {
+            "name": "minimum_order_number",
+            "value": "110000",
+            "configuration_model_id": "pos_qs_order_pay_fulfill"
+        },
+        {
+            "name": "skip_pos_submission",
+            "value": true,
+            "configuration_model_id": "pos_qs_order_pay_fulfill"
+        },
+        {
+            "name": "skip_pos_submission_state",
+            "value": "completed",
+            "configuration_model_id": "pos_qs_order_pay_fulfill"
+        },
+        {
+            "name": "xpedite_auto_print_state",
+            "value": "processing",
+            "configuration_model_id": "pos_qs_order_pay_fulfill"
+        },
+        {
+            "name": "concessions_orders_usage_type",
+            "value": "pickup",
+            "configuration_model_id": "pos_qs_order_pay_fulfill"
+        },
+        {
+            "name": "concessions_menus_usage_type",
+            "value": "pickup",
+            "configuration_model_id": "pos_qs_order_pay_fulfill"
+        },
+        {
+            "name": "delivery_orders_usage_type",
+            "value": "delivery",
+            "configuration_model_id": "pos_qs_order_pay_fulfill"
+        },
+        {
+            "name": "delivery_menus_usage_type",
+            "value": "delivery",
+            "configuration_model_id": "pos_qs_order_pay_fulfill"
+        },
+        {
+            "name": "pickup_display_name",
+            "value": "Pick Up",
+            "configuration_model_id": "pos_qs_order_pay_fulfill"
+        },
+        {
+            "name": "pickup_orders_usage_type",
+            "value": "pickup",
+            "configuration_model_id": "pos_qs_order_pay_fulfill"
+        },
+        {
+            "name": "pickup_menus_usage_type",
+            "value": "pickup",
+            "configuration_model_id": "pos_qs_order_pay_fulfill"
+        },
+        {
+            "name": "quickpay_orders_usage_type",
+            "value": "pickup",
+            "configuration_model_id": "pos_qs_order_pay_fulfill"
+        },
+        {
+            "name": "quickpay_menus_usage_type",
+            "value": "pickup",
+            "configuration_model_id": "pos_qs_order_pay_fulfill"
+        },
+        {
+            "name": "kiosk_orders_usage_type",
+            "value": "pickup",
+            "configuration_model_id": "pos_qs_order_pay_fulfill"
+        },
+        {
+            "name": "kiosk_menus_usage_type",
+            "value": "pickup",
+            "configuration_model_id": "pos_qs_order_pay_fulfill"
+        },
+        {
+            "name": "pos_display_name",
+            "value": "POS - Order Pay Fulfill",
+            "configuration_model_id": "pos_qs_order_pay_fulfill"
+        },
+        {
+            "name": "pos_orders_usage_type",
+            "value": "pickup",
+            "configuration_model_id": "pos_qs_order_pay_fulfill"
+        },
+        {
+            "name": "pos_menus_usage_type",
+            "value": "pickup",
+            "configuration_model_id": "pos_qs_order_pay_fulfill"
+        },
+        {
+            "name": "selfcheckout_orders_usage_type",
+            "value": "pickup",
+            "configuration_model_id": "pos_qs_order_pay_fulfill"
+        },
+        {
+            "name": "selfcheckout_menus_usage_type",
+            "value": "pickup",
+            "configuration_model_id": "pos_qs_order_pay_fulfill"
+        },
+        {
+            "name": "merch_tax_rate",
+            "value": 0.0,
+            "configuration_model_id": "pos_qs_order_pay_fulfill"
+        },
+        {
+            "name": "food_tax_rate",
+            "value": 0.0,
+            "configuration_model_id": "pos_qs_order_pay_fulfill"
+        },
+        {
+            "name": "tax_by_item",
+            "value": true,
+            "configuration_model_id": "pos_qs_order_pay_fulfill"
+        },
+        {
+            "name": "tax_rate_on_items",
+            "value": true,
+            "configuration_model_id": "pos_qs_order_pay_fulfill"
+        },
+        {
+            "name": "pos_processing_display_name",
+            "value": "You order has been placed!",
+            "configuration_model_id": "pos_qs_order_pay_fulfill"
+        },
+        {
+            "name": "pos_processing_description",
+            "value": "Hi #{first_name}, thank you for your order. We will update this page when your order is ready for pickup from #{location_name}.",
+            "configuration_model_id": "pos_qs_order_pay_fulfill"
+        },
+        {
+            "name": "pos_completed_display_name",
+            "value": "Completed!",
+            "configuration_model_id": "pos_qs_order_pay_fulfill"
+        },
+        {
+            "name": "pos_completed_description",
+            "value": "Hi #{first_name}, your order has been completed successfully.",
+            "configuration_model_id": "pos_qs_order_pay_fulfill"
+        },
+        {
+            "name": "pos_refunded_display_name",
+            "value": "Your order has been refunded.",
+            "configuration_model_id": "pos_qs_order_pay_fulfill"
+        },
+        {
+            "name": "pos_refunded_description",
+            "value": "Hi #{first_name}, your order has been successfully refunded.",
+            "configuration_model_id": "pos_qs_order_pay_fulfill"
+        },
+        {
+            "name": "pos_partially_refunded_display_name",
+            "value": "Partially Refunded",
+            "configuration_model_id": "pos_qs_order_pay_fulfill"
+        },
+        {
+            "name": "pos_partially_refunded_description",
+            "value": "Hi #{first_name}, some items within this order have been refunded.",
+            "configuration_model_id": "pos_qs_order_pay_fulfill"
+        },
+        {
+            "name": "pos_cancelled_display_name",
+            "value": "Your order has been cancelled.",
+            "configuration_model_id": "pos_qs_order_pay_fulfill"
+        },
+        {
+            "name": "pos_cancelled_description",
+            "value": "Hi #{first_name}, your order has been cancelled.",
+            "configuration_model_id": "pos_qs_order_pay_fulfill"
+        },
+        {
+            "name": "pos_refund_failed_display_name",
+            "value": "Refund Attempted",
+            "configuration_model_id": "pos_qs_order_pay_fulfill"
+        },
+        {
+            "name": "pos_refund_failed_description",
+            "value": "Hi #{first_name}, we tried to refund your order but there was a problem. We will resolve this shortly.",
+            "configuration_model_id": "pos_qs_order_pay_fulfill"
+        }
+    ]
+}

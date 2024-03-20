@@ -98,7 +98,8 @@ const ScriptDrawer: React.FC<ScriptDrawerProps> = ({ isOpen, onClose, scriptData
       setOutputData("Invalid JSON Blob");
       return;
     }
-    const uuidRegex = /^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{12}$/;
+    // Shift4 Token supported format - Removed last separator like in normal UUID v4
+    const uuidRegex = /^[0-9a-fA-F]{8}-[0-9a-fA-F]{4}-[0-9a-fA-F]{4}-[0-9a-fA-F]{16}$/;
 
     let outputData: any;
   

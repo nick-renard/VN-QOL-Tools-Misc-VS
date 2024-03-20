@@ -1,0 +1,343 @@
+All States and Valid Next States:
+---------------------------------
+State: queued
+Valid next states:
+ - tabbed
+ - refunded
+ - submission_failed
+ - partially_refunded
+ - refund_failed
+ - settlement_failed
+ - closed_by_admin
+ - approved_offline
+ - submitted
+ - submitting
+ - assigned
+ - bumped
+ - cancelled
+ - processing
+
+State: submitting
+Valid next states:
+ - not_collected
+ - completed
+ - delivery_failed
+ - tabbed
+ - refunded
+ - incomplete
+ - completion_pending
+ - submission_failed
+ - authorization_failed
+ - partially_refunded
+ - refund_failed
+ - settlement_failed
+ - closed_by_admin
+ - approved_offline
+ - submitted
+ - queued
+ - submitting
+ - assigned
+ - bumped
+ - cancelled
+ - processing
+ - delivered_without_alcohol
+ - problem_reported
+
+State: submitted
+Valid next states:
+ - not_collected
+ - completed
+ - delivery_failed
+ - tabbed
+ - refunded
+ - incomplete
+ - completion_pending
+ - submission_failed
+ - authorization_failed
+ - partially_refunded
+ - refund_failed
+ - settlement_failed
+ - closed_by_admin
+ - approved_offline
+ - submitted
+ - queued
+ - submitting
+ - assigned
+ - bumped
+ - cancelled
+ - processing
+ - delivered_without_alcohol
+ - problem_reported
+
+State: processing
+Valid next states:
+ - not_collected
+ - completed
+ - delivery_failed
+ - tabbed
+ - refunded
+ - incomplete
+ - completion_pending
+ - submission_failed
+ - authorization_failed
+ - partially_refunded
+ - refund_failed
+ - settlement_failed
+ - closed_by_admin
+ - approved_offline
+ - submitted
+ - queued
+ - submitting
+ - assigned
+ - bumped
+ - cancelled
+ - processing
+ - delivered_without_alcohol
+ - problem_reported
+
+State: bumped
+Valid next states:
+ - not_collected
+ - completed
+ - delivery_failed
+ - tabbed
+ - refunded
+ - incomplete
+ - completion_pending
+ - submission_failed
+ - authorization_failed
+ - partially_refunded
+ - refund_failed
+ - settlement_failed
+ - closed_by_admin
+ - approved_offline
+ - submitted
+ - queued
+ - submitting
+ - assigned
+ - bumped
+ - cancelled
+ - processing
+ - delivered_without_alcohol
+ - problem_reported
+
+State: assigned
+Valid next states:
+ - not_collected
+ - completed
+ - delivery_failed
+ - tabbed
+ - refunded
+ - incomplete
+ - completion_pending
+ - submission_failed
+ - authorization_failed
+ - partially_refunded
+ - refund_failed
+ - settlement_failed
+ - closed_by_admin
+ - approved_offline
+ - submitted
+ - queued
+ - submitting
+ - assigned
+ - bumped
+ - cancelled
+ - processing
+ - delivered_without_alcohol
+ - problem_reported
+
+State: completion_pending
+Valid next states:
+ - completion_pending
+ - completed
+ - cancelled
+ - delivery_failed
+ - closed_by_admin
+ - settlement_failed
+
+State: completed
+Valid next states:
+ - settlement_failed
+ - delivered_without_alcohol
+ - problem_reported
+
+State: refunded
+Valid next states:
+
+State: partially_refunded
+Valid next states:
+ - refunded
+ - refund_failed
+
+State: incomplete
+Valid next states:
+ - partially_refunded
+ - settlement_failed
+ - closed_by_admin
+ - approved_offline
+ - tabbed
+ - submitted
+ - refunded
+ - queued
+ - submitting
+ - assigned
+ - bumped
+ - cancelled
+ - processing
+ - submission_failed
+ - authorization_failed
+ - refund_failed
+
+State: delivery_failed
+Valid next states:
+ - problem_reported
+
+State: submission_failed
+Valid next states:
+ - not_collected
+ - completed
+ - delivery_failed
+ - tabbed
+ - refunded
+ - completion_pending
+ - submission_failed
+ - authorization_failed
+ - partially_refunded
+ - refund_failed
+ - settlement_failed
+ - closed_by_admin
+ - approved_offline
+ - submitted
+ - queued
+ - submitting
+ - assigned
+ - bumped
+ - cancelled
+ - processing
+ - delivered_without_alcohol
+ - problem_reported
+
+State: closed_by_admin
+Valid next states:
+
+State: authorization_failed
+Valid next states:
+ - not_collected
+ - completed
+ - delivery_failed
+ - tabbed
+ - refunded
+ - completion_pending
+ - submission_failed
+ - authorization_failed
+ - partially_refunded
+ - refund_failed
+ - settlement_failed
+ - closed_by_admin
+ - approved_offline
+ - submitted
+ - queued
+ - submitting
+ - assigned
+ - bumped
+ - cancelled
+ - processing
+ - delivered_without_alcohol
+ - problem_reported
+
+State: settlement_failed
+Valid next states:
+ - completed
+ - tabbed
+
+State: cancelled
+Valid next states:
+
+State: delivered_without_alcohol
+Valid next states:
+ - refunded
+ - partially_refunded
+ - refund_failed
+ - problem_reported
+
+State: problem_reported
+Valid next states:
+
+State: refund_failed
+Valid next states:
+ - refunded
+ - partially_refunded
+
+State: not_collected
+Valid next states:
+ - refunded
+ - partially_refunded
+ - refund_failed
+ - problem_reported
+
+State: approved_offline
+Valid next states:
+ - incomplete
+ - submission_failed
+ - refund_failed
+ - settlement_failed
+ - closed_by_admin
+ - approved_offline
+ - submitted
+ - assigned
+ - bumped
+ - cancelled
+ - not_collected
+ - completed
+ - delivery_failed
+ - tabbed
+ - refunded
+ - completion_pending
+ - authorization_failed
+ - partially_refunded
+ - queued
+ - submitting
+ - processing
+ - delivered_without_alcohol
+ - problem_reported
+
+
+Completable States (States that can lead to 'completed'):
+---------------------------------------------------------
+submitting
+submitted
+processing
+bumped
+assigned
+completion_pending
+submission_failed
+authorization_failed
+settlement_failed
+approved_offline
+
+All Order States:
+---------------------------------------------------------
+incomplete
+submission_failed
+refund_failed
+settlement_failed
+closed_by_admin
+approved_offline
+submitted
+assigned
+bumped
+cancelled
+not_collected
+completed
+delivery_failed
+tabbed
+refunded
+completion_pending
+authorization_failed
+partially_refunded
+queued
+submitting
+processing
+delivered_without_alcohol
+problem_reported

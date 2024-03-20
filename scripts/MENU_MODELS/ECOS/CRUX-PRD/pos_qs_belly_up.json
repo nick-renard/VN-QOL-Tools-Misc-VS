@@ -1,0 +1,218 @@
+{
+    "settings": [
+        {
+            "name": "enable_quick_service_kitchen_printing",
+            "value": false,
+            "configuration_model_id": "0efbe94e-4109-4f0c-a007-0d60e25edb6b"
+        },
+        {
+            "name": "order_settlement_by_state",
+            "value": [
+                "completed",
+                "delivered_without_alcohol",
+                "not_collected"
+            ],
+            "configuration_model_id": "0efbe94e-4109-4f0c-a007-0d60e25edb6b"
+        },
+        {
+            "name": "use_menu_categories",
+            "value": false,
+            "configuration_model_id": "0efbe94e-4109-4f0c-a007-0d60e25edb6b"
+        },
+        {
+            "name": "use_item_categories",
+            "value": true,
+            "configuration_model_id": "0efbe94e-4109-4f0c-a007-0d60e25edb6b"
+        },
+        {
+            "name": "check_recent_order",
+            "value": false,
+            "configuration_model_id": "0efbe94e-4109-4f0c-a007-0d60e25edb6b"
+        },
+        {
+            "name": "enable_inventory_management",
+            "value": true,
+            "configuration_model_id": "0efbe94e-4109-4f0c-a007-0d60e25edb6b"
+        },
+        {
+            "name": "minimum_order_number",
+            "value": "100000",
+            "configuration_model_id": "0efbe94e-4109-4f0c-a007-0d60e25edb6b"
+        },
+        {
+            "name": "skip_pos_submission",
+            "value": true,
+            "configuration_model_id": "0efbe94e-4109-4f0c-a007-0d60e25edb6b"
+        },
+        {
+            "name": "skip_pos_submission_state",
+            "value": "completed",
+            "configuration_model_id": "0efbe94e-4109-4f0c-a007-0d60e25edb6b"
+        },
+        {
+            "name": "xpedite_auto_print_state",
+            "value": "processing",
+            "configuration_model_id": "0efbe94e-4109-4f0c-a007-0d60e25edb6b"
+        },
+        {
+            "name": "concessions_orders_usage_type",
+            "value": "pickup",
+            "configuration_model_id": "0efbe94e-4109-4f0c-a007-0d60e25edb6b"
+        },
+        {
+            "name": "concessions_menus_usage_type",
+            "value": "pickup",
+            "configuration_model_id": "0efbe94e-4109-4f0c-a007-0d60e25edb6b"
+        },
+        {
+            "name": "delivery_orders_usage_type",
+            "value": "delivery",
+            "configuration_model_id": "0efbe94e-4109-4f0c-a007-0d60e25edb6b"
+        },
+        {
+            "name": "delivery_menus_usage_type",
+            "value": "delivery",
+            "configuration_model_id": "0efbe94e-4109-4f0c-a007-0d60e25edb6b"
+        },
+        {
+            "name": "pickup_display_name",
+            "value": "Pick Up",
+            "configuration_model_id": "0efbe94e-4109-4f0c-a007-0d60e25edb6b"
+        },
+        {
+            "name": "pickup_orders_usage_type",
+            "value": "pickup",
+            "configuration_model_id": "0efbe94e-4109-4f0c-a007-0d60e25edb6b"
+        },
+        {
+            "name": "pickup_menus_usage_type",
+            "value": "pickup",
+            "configuration_model_id": "0efbe94e-4109-4f0c-a007-0d60e25edb6b"
+        },
+        {
+            "name": "quickpay_orders_usage_type",
+            "value": "pickup",
+            "configuration_model_id": "0efbe94e-4109-4f0c-a007-0d60e25edb6b"
+        },
+        {
+            "name": "quickpay_menus_usage_type",
+            "value": "pickup",
+            "configuration_model_id": "0efbe94e-4109-4f0c-a007-0d60e25edb6b"
+        },
+        {
+            "name": "kiosk_orders_usage_type",
+            "value": "pickup",
+            "configuration_model_id": "0efbe94e-4109-4f0c-a007-0d60e25edb6b"
+        },
+        {
+            "name": "kiosk_menus_usage_type",
+            "value": "pickup",
+            "configuration_model_id": "0efbe94e-4109-4f0c-a007-0d60e25edb6b"
+        },
+        {
+            "name": "pos_display_name",
+            "value": "POS - Belly Up",
+            "configuration_model_id": "0efbe94e-4109-4f0c-a007-0d60e25edb6b"
+        },
+        {
+            "name": "pos_orders_usage_type",
+            "value": "pickup",
+            "configuration_model_id": "0efbe94e-4109-4f0c-a007-0d60e25edb6b"
+        },
+        {
+            "name": "pos_menus_usage_type",
+            "value": "pickup",
+            "configuration_model_id": "0efbe94e-4109-4f0c-a007-0d60e25edb6b"
+        },
+        {
+            "name": "selfcheckout_orders_usage_type",
+            "value": "pickup",
+            "configuration_model_id": "0efbe94e-4109-4f0c-a007-0d60e25edb6b"
+        },
+        {
+            "name": "selfcheckout_menus_usage_type",
+            "value": "pickup",
+            "configuration_model_id": "0efbe94e-4109-4f0c-a007-0d60e25edb6b"
+        },
+        {
+            "name": "merch_tax_rate",
+            "value": 0.0,
+            "configuration_model_id": "0efbe94e-4109-4f0c-a007-0d60e25edb6b"
+        },
+        {
+            "name": "food_tax_rate",
+            "value": 0.0,
+            "configuration_model_id": "0efbe94e-4109-4f0c-a007-0d60e25edb6b"
+        },
+        {
+            "name": "tax_by_item",
+            "value": true,
+            "configuration_model_id": "0efbe94e-4109-4f0c-a007-0d60e25edb6b"
+        },
+        {
+            "name": "tax_rate_on_items",
+            "value": true,
+            "configuration_model_id": "0efbe94e-4109-4f0c-a007-0d60e25edb6b"
+        },
+        {
+            "name": "pos_processing_display_name",
+            "value": "You order has been placed!",
+            "configuration_model_id": "0efbe94e-4109-4f0c-a007-0d60e25edb6b"
+        },
+        {
+            "name": "pos_processing_description",
+            "value": "Hi #{first_name}, thank you for your order. We will update this page when your order is ready for pickup from #{location_name}.",
+            "configuration_model_id": "0efbe94e-4109-4f0c-a007-0d60e25edb6b"
+        },
+        {
+            "name": "pos_completed_display_name",
+            "value": "Completed!",
+            "configuration_model_id": "0efbe94e-4109-4f0c-a007-0d60e25edb6b"
+        },
+        {
+            "name": "pos_completed_description",
+            "value": "Hi #{first_name}, your order has been completed successfully.",
+            "configuration_model_id": "0efbe94e-4109-4f0c-a007-0d60e25edb6b"
+        },
+        {
+            "name": "pos_refunded_display_name",
+            "value": "Your order has been refunded.",
+            "configuration_model_id": "0efbe94e-4109-4f0c-a007-0d60e25edb6b"
+        },
+        {
+            "name": "pos_refunded_description",
+            "value": "Hi #{first_name}, your order has been successfully refunded.",
+            "configuration_model_id": "0efbe94e-4109-4f0c-a007-0d60e25edb6b"
+        },
+        {
+            "name": "pos_partially_refunded_display_name",
+            "value": "Partially Refunded",
+            "configuration_model_id": "0efbe94e-4109-4f0c-a007-0d60e25edb6b"
+        },
+        {
+            "name": "pos_partially_refunded_description",
+            "value": "Hi #{first_name}, some items within this order have been refunded.",
+            "configuration_model_id": "0efbe94e-4109-4f0c-a007-0d60e25edb6b"
+        },
+        {
+            "name": "pos_cancelled_display_name",
+            "value": "Your order has been cancelled.",
+            "configuration_model_id": "0efbe94e-4109-4f0c-a007-0d60e25edb6b"
+        },
+        {
+            "name": "pos_cancelled_description",
+            "value": "Hi #{first_name}, your order has been cancelled.",
+            "configuration_model_id": "0efbe94e-4109-4f0c-a007-0d60e25edb6b"
+        },
+        {
+            "name": "pos_refund_failed_display_name",
+            "value": "Refund Attempted",
+            "configuration_model_id": "0efbe94e-4109-4f0c-a007-0d60e25edb6b"
+        },
+        {
+            "name": "pos_refund_failed_description",
+            "value": "Hi #{first_name}, we tried to refund your order but there was a problem. We will resolve this shortly.",
+            "configuration_model_id": "0efbe94e-4109-4f0c-a007-0d60e25edb6b"
+        }
+    ]
+}

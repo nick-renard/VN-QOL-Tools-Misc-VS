@@ -87,10 +87,13 @@ function Header() {
                 <Tooltip title="Go to Canopy | LEVIS PRD" arrow>
                   <Button href="https://canopy.prd.levis.vnops.net/" target="_blank" rel="noreferrer">LEVIS</Button>
                 </Tooltip>
+                <Tooltip title="Go to Canopy | LEVY PRD" arrow>
+                  <Button href="https://canopy.prd.levy.vnops.net/" target="_blank" rel="noreferrer">LEVY</Button>
+                </Tooltip>
               </ButtonGroups>
             <Divider orientation="vertical" flexItem />
             <Tooltip title="Need Help?" arrow>
-              <IconButton href="https://shift4.slack.com/archives/C02HK2KRL9K/" color="secondary" edge="end" size="large" >
+              <IconButton href="https://shift4.slack.com/archives/C02HK2KRL9K/" color="secondary" edge="end" size="large" target="_blank" rel="noreferrer">
                 <HelpCenterOutlined />
               </IconButton>
             </Tooltip>

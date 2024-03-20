@@ -11,12 +11,12 @@ def run():
 
     if choice == '1':
         # Read the JSON file
-        with open('LOYALTY_ACCOUNT_INDEX_TO_AMOUNT/loyalty_accounts_index.json') as file:
+        with open('scripts/LOYALTY_ACCOUNT_INDEX_TO_AMOUNT/loyalty_accounts_index.json') as file:
             data = json.load(file)
     elif choice == '2':
         instance = input("Enter the instance: ")
         organization_name = input("Enter the organization name: ")
-        with open('LOYALTY_ACCOUNT_INDEX_TO_AMOUNT/loyalty_accounts_text.txt') as file:
+        with open('scripts/LOYALTY_ACCOUNT_INDEX_TO_AMOUNT/loyalty_accounts_text.txt') as file:
             accounts = file.read().splitlines()
         data = {
             "accounts": []
@@ -59,7 +59,7 @@ def run():
     print('\x1b[0;30;42m' + 'Total accounts to be awarded: ' + str(i) + '\x1b[0m')
 
     # Write the API request JSON to a file
-    with open('LOYALTY_ACCOUNT_INDEX_TO_AMOUNT/postman_request.json', 'w') as file:
+    with open('scripts/LOYALTY_ACCOUNT_INDEX_TO_AMOUNT/postman_request.json', 'w') as file:
         json.dump(api_request, file, indent=4)
 
 run()

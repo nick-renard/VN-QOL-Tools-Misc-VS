@@ -20,7 +20,7 @@ def json_to_csv(json_file, csv_file):
     print(f"CSV file '{csv_file}' created successfully.")
 
 # Example usage
-json_file = 'JSON_TO_CSV/json_input.json'
-csv_file = 'JSON_TO_CSV/json_output.csv'
+json_file = 'scripts/JSON_TO_CSV/json_input.json'
+csv_file = 'scripts/JSON_TO_CSV/json_output.csv'
 json_to_csv(json_file, csv_file)
 

@@ -19,4 +19,4 @@ const levyMerchants = (inputData: any, merchantToken: string) => {
     return outputData;
   };
   
-  export default levyMerchants;  
+  export default levyMerchants;
