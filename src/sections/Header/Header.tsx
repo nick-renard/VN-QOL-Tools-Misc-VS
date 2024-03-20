@@ -58,10 +58,11 @@ function Header() {
                 <Tooltip title="Go to OZ2" arrow>
                     <Button href="https://oz2.vnops.net/" target="_blank" rel="noreferrer">OZ2</Button>
                 </Tooltip>
-                <Tooltip title="Coming soon!" arrow>
-                    <span>
-                        <Button href="https://oz2.vnops.net/" target="_blank" rel="noreferrer" disabled={true}>OZ Next</Button>
-                    </span>
+                <Tooltip title="Go to OZ3-DEV" arrow>
+                    <Button href="https://oznext-dev.vnops.net/login" target="_blank" rel="noreferrer">OZ3-DEV</Button>
+                </Tooltip>
+                <Tooltip title="Go to OZ3 PRD | COMING SOON!" arrow>
+                    <Button href="https://oznext.vnops.net/" target="_blank" rel="noreferrer" disabled={true}>OZ3-PRD</Button>
                 </Tooltip>
             </ButtonGroups>
             <Divider orientation="vertical" flexItem />
@@ -89,6 +90,9 @@ function Header() {
                 </Tooltip>
                 <Tooltip title="Go to Canopy | LEVY PRD" arrow>
                   <Button href="https://canopy.prd.levy.vnops.net/" target="_blank" rel="noreferrer">LEVY</Button>
+                </Tooltip>
+                <Tooltip title="Go to Canopy | LN PRD" arrow>
+                  <Button href="https://canopy.prd.ln.vnops.net/" target="_blank" rel="noreferrer"> LN </Button>
                 </Tooltip>
               </ButtonGroups>
             <Divider orientation="vertical" flexItem />
